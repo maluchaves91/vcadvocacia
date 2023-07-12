@@ -2,6 +2,11 @@ body{
     background-color: #faebd7;
 }
 
+.textosPrincipais{
+  color: #000;
+  opacity: 1;
+}
+
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 }
