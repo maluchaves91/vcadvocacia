@@ -22,8 +22,14 @@ body{
   }
 }
 
+.transparent {
+  opacity: 1;
+}
+
 .tituloPrincipal{
   animation: slide-up 1.5s ease-out;
+  color: black;
+  
 }
 
 .imagens{
@@ -39,7 +45,23 @@ body{
     align-items: center;
     margin-top: 8%;
     height: 400px;
+    opacity: 0.5;
+    filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
+
+/*Podemos fazer os seguintes tratamentos em nossos elementos:
+
+blur(px) - nível de ofuscamento
+brightness(%) - ajusta o brilho
+contrast(%) - ajusta o contraste
+drop-shadow(h, v, blur, color) - aplica sombras
+grayscale(%) - transforma as cores do elemento para uma escala cinza
+hue-rotate(deg) - altera as cores do elemento
+invert(%) - inverte as cores do elemento
+opacity(%) - controla a opacidade do elemento
+saturate(%) - altera a saturação do elemento
+sepia(%) - transforma as cores do elemento para um tom sépia*/
+
   
   
   
