@@ -2,21 +2,45 @@ body{
     background-color: #faebd7;
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color: #faebd7;
+  color: #000;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.tituloPrincipal{
+  animation: slide-up 1.5s ease-out;
+}
+
 .imagens{
-    float: left;
+    float:left ;
 }
 
 #home {
     background-image: url(backgroundHome.jpg);
     background-size: cover;
-  }
-<<<<<<< Updated upstream
+    background-position: 50%, 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+    height: 400px;
+}
   
-  .home-bg{
-    margin-top: 50%;
-  }
-
-=======
->>>>>>> Stashed changes
-
   
+  
+
