@@ -3,7 +3,7 @@ body{
 }
 
 .textosPrincipais{
-  color: #000;
+  color: #ffffff;
   opacity: 1;
 }
 
@@ -73,7 +73,7 @@ filter: brightness(70%) sepia(100%) hue-rotate(180deg) grayscale(100%);
 }
 
 .informacoes{
-  color:#faebd7;
+  color:#131210;
   text-decoration:none;
 }
 
