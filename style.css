@@ -49,6 +49,18 @@ body{
     filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
+#contato{
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(60, 49, 49, 0.91);;
+}
+
+.informacoes{
+  color:#faebd7;
+  text-decoration:none;
+}
+
+
 /*Podemos fazer os seguintes tratamentos em nossos elementos:
 
 blur(px) - nível de ofuscamento
