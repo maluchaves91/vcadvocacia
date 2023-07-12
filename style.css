@@ -5,8 +5,15 @@ body{
 .imagens{
     float: left;
 }
-.home-bg {
+
+#home {
     background-image: url(backgroundHome.jpg);
     background-size: cover;
   }
+  
+  .home-bg{
+    margin-top: 50%;
+  }
+
+
   
