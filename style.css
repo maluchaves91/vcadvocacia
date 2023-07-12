@@ -5,3 +5,8 @@ body{
 .imagens{
     float: left;
 }
+.home-bg {
+    background-image: url(backgroundHome.jpg);
+    background-size: cover;
+  }
+  
