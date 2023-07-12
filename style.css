@@ -57,6 +57,7 @@ justify-content: center;
 margin-top: 0%;
 height: 200px;
 opacity: 0.3;
+filter: brightness(70%) sepia(100%) hue-rotate(180deg) grayscale(100%);
 }
 
 
