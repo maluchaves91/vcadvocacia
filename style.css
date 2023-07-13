@@ -33,11 +33,18 @@ body{
   opacity: 1;
 }
 
-.tituloPrincipal{
+
+
+.tituloPrincipal {
   animation: slide-up 1.5s ease-out;
   color: black;
-  
+  background-color: rgba(255, 255, 255, 0);
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+  opacity: 1;
+
 }
+
 
 .imagens{
     float:left ;
@@ -52,7 +59,6 @@ body{
     align-items: center;
     margin-top: 0%;
     height: 400px;
-    opacity: 0.5;
     filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
