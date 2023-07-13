@@ -4,7 +4,7 @@ body{
 }
 
 .textosPrincipais{
-  color: #fbfbfb;
+  color: #080707;
   opacity: 1;
   margin-top: 1px;
 }
@@ -50,7 +50,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: %;
+    margin-top: 0%;
     height: 400px;
     opacity: 0.5;
     filter: brightness(70%) sepia(100%) hue-rotate(180deg);
@@ -64,19 +64,18 @@ justify-content: center;
 margin-top: 0%;
 height: 200px;
 opacity: 0.5;
-filter: brightness(70%) sepia(100%) hue-rotate(180deg) grayscale(100%);
-}
-
-
-#contato{
-  bottom: 0;
-  width: 100%;
-  background-color: rgba(60, 49, 49, 0.91);;
+filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
 .informacoes{
   color:#655f53;
   text-decoration:none;
+}
+
+#contato{
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(60, 49, 49, 0.91);;
 }
 
 
