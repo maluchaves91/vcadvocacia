@@ -4,7 +4,7 @@ body{
 }
 
 .textosPrincipais{
-  color: #3b2d2d;
+  color: #fbfbfb;
   opacity: 1;
   margin-top: 1px;
 }
@@ -43,18 +43,15 @@ body{
     float:left ;
 }
 
-
-
-
-# {
+#home {
     background-image: url(backgroundHome.jpg);
     background-size: cover;
     background-position: 50%, 0%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 0%;
-    height: 500px;
+    margin-top: %;
+    height: 400px;
     opacity: 0.5;
     filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
@@ -66,7 +63,7 @@ background-position: 50%, 0%;
 justify-content: center;
 margin-top: 0%;
 height: 200px;
-opacity: 0.3;
+opacity: 0.5;
 filter: brightness(70%) sepia(100%) hue-rotate(180deg) grayscale(100%);
 }
 
