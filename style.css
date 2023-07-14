@@ -87,6 +87,12 @@ border-bottom-left-radius: 30px;
 .informacoes{
   color: #aa8144 ;
   text-decoration:none;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.titulo{
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #aa8144 ;
 }
 
 .telefones{
