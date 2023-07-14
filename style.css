@@ -77,6 +77,13 @@ opacity: 0.5;
 filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
+.content-img{
+width: 300px;
+height: 300px;
+margin: 10px;
+border-bottom-left-radius: 30px;
+}
+
 .informacoes{
   color: #aa8144 ;
   text-decoration:none;
