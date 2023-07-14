@@ -7,6 +7,10 @@ body{
   color: #080707;
   opacity: 1;
   margin-top: 1px;
+  margin-left: 2%;
+  margin-right: 2%;
+  text-align: justify;
+  text-indent:4em ;
 }
 
 .nav-item.dropdown:hover .dropdown-menu {
@@ -74,8 +78,18 @@ filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
 .informacoes{
-  color:#655f53;
+  color: #aa8144 ;
   text-decoration:none;
+}
+
+.telefones{
+  color: #f0d6b6  ;
+  text-decoration:none;
+ 
+}
+
+.logos{
+  font-size: 2em;
 }
 
 #contato{
