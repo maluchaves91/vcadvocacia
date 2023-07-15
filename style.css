@@ -1,20 +1,20 @@
-body{
+body {
   background-color: #faebd7;
 }
 
-.fundo{
+.fundo {
 
-text-align: center;
+  text-align: center;
 }
 
-.textosPrincipais{
+.textosPrincipais {
   color: #080707;
   opacity: 1;
   margin-top: 1px;
   margin-left: 2%;
   margin-right: 2%;
   text-align: justify;
-  text-indent:4em ;
+  text-indent: 4em;
 }
 
 .nav-item.dropdown:hover .dropdown-menu {
@@ -31,6 +31,7 @@ text-align: center;
     transform: translateY(100%);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0%);
     opacity: 1;
@@ -54,95 +55,100 @@ text-align: center;
 }
 
 
-.imagens{
-    float:left ;
+.imagens {
+  float: left;
 }
 
 #home {
-    background-image: url(backgroundHome.jpg);
-    background-size: cover;
-    background-position: 50%, 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0%;
-    height: 400px;
-    filter: brightness(70%) sepia(100%) hue-rotate(180deg);
+  background-image: url(backgroundHome.jpg);
+  background-size: cover;
+  background-position: 50%, 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+  height: 400px;
+  filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
-#escritorio{
-background-image: url(mulherDigitando.jpg);
-background-size: cover;
-background-position: 50%, 0%;
-justify-content: center;
-margin-top: 0%;
-height: 200px;
-opacity: 0.5;
-filter: brightness(70%) sepia(100%) hue-rotate(180deg);
+#escritorio {
+  background-image: url(mulherDigitando.jpg);
+  background-size: cover;
+  background-position: 50%, 0%;
+  justify-content: center;
+  margin-top: 0%;
+  height: 200px;
+  opacity: 0.5;
+  filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
-.content-img{
-width: 300px;
-height: 300px;
-margin: 10px;
-border-bottom-left-radius: 30px;
+.content-img {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  border-bottom-left-radius: 30px;
 }
 
-.informacoes{
-  color: #aa8144 ;
-  text-decoration:none;
+.informacoes {
+  color: #aa8144;
+  text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
 }
 
-.titulo{
+.titulo {
   font-family: 'Ysabeau Office', sans-serif;
-  color: #aa8144 ;
+  color: #aa8144;
 }
 
-.telefones{
-  color: #f0d6b6  ;
-  text-decoration:none;
- 
+.telefones {
+  color: #f0d6b6;
+  text-decoration: none;
+
 }
 
-.logos{
+.logos {
   font-size: 2em;
 }
 
-#contato{
+#contato {
   bottom: 0;
   width: 100%;
   background-color: rgba(60, 49, 49, 0.91);
 }
 
-.areasAtuacao{
+.areasAtuacao {
   margin-top: 10%;
 }
 
-.conteudoAreaAtuacao{
+.conteudoAreaAtuacao {
   text-align: justify;
   list-style: none;
 }
 
 fieldset {
   border: 1px solid #000000;
-  padding: 10px;  
+  padding: 10px;
   background-color: white;
 }
-
-
 
 
 fieldset {
   all: revert;
   background-color: white;
 }
-legend{
-  all: revert;}
+
+legend {
+  all: revert;
+}
 
 
-.titulo{
+.titulo {
   text-align: center;
+}
+
+.duvidas{
+ width: 90%;
+ margin-left: 5%;
 }
 
 /*Podemos fazer os seguintes tratamentos em nossos elementos:
@@ -157,8 +163,3 @@ invert(%) - inverte as cores do elemento
 opacity(%) - controla a opacidade do elemento
 saturate(%) - altera a saturação do elemento
 sepia(%) - transforma as cores do elemento para um tom sépia*/
-
-  
-  
-  
-
