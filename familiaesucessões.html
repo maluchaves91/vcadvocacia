@@ -90,35 +90,44 @@
       </div>
     </div>
 
+    <div class="duvidas">
+      <form action="https://formspree.io/f/mdorovvg" method="POST">
+        <fieldset >
+          <legend>Tire sua dúvida</legend>
+
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+              <div class="input-group">
+                <div class="input-group-text">E-mail</div>
+                <input name="email" type="text" class="form-control"  placeholder="name@example.com">
+              </div>
+            </div>
+<br>
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormSelectPref">Preference</label>
+              <select class="form-select" id="inlineFormSelectPref">
+                <option selected name="subject">Escolha o assunto</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          
+         <br>
+          <div class="col-auto">
+            
+            <textarea class="form-control" name="message" rows="3" placeholder="mensagem"></textarea>
+          </div>
+
+          <br>
+
+          <!-- your other form fields go here -->
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </div>
 
 
-<div class="duvidas">
-    <!-- modify this form HTML and place wherever you want your form -->
-    <form action="https://formspree.io/f/mdorovvg" method="POST">
-      <fieldset>
-        <legend>Tire sua dúvida</legend>
-        <label>
-          Seu e-mail:
-          <input type="email" name="email">
-        </label>
-        <br>
-        <label>
-          Assunto:
-          <input type="subject" name="subject">
-        </label>
-        <br>
-        <label>
-          Mensagem:
-          <textarea name="message"></textarea>
-        </label>
-        <br>
-        <!-- your other form fields go here -->
-        <button type="submit">Enviar</button>
-      </fieldset>
-    </form>
-  </div>
-
- 
 
 
 
