@@ -91,6 +91,11 @@ body {
   font-family: 'Ysabeau Office', sans-serif;
 }
 
+.content-icon{
+  color: rgb(212, 191, 120);
+  
+}
+
 .titulo {
   font-family: 'Ysabeau Office', sans-serif;
   color: #aa8144;
