@@ -115,6 +115,30 @@ border-bottom-left-radius: 30px;
   margin-top: 10%;
 }
 
+.conteudoAreaAtuacao{
+  text-align: justify;
+  list-style: none;
+}
+
+fieldset {
+  border: 1px solid #999;
+  padding: 10px;
+  /* controla a distancia entre os elementos e a borda */
+  margin: 15px;
+  width: 30%;
+  /* margem para alinhar o fieldset com o restante do grid */
+
+}
+
+.duvidas{
+  width: 50%;
+  text-align: center;
+  margin-left: 10%;
+}
+
+fieldset, legend {
+  all: revert;
+}
 /*Podemos fazer os seguintes tratamentos em nossos elementos:
 
 blur(px) - nível de ofuscamento
