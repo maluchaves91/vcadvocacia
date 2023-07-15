@@ -9,7 +9,6 @@ body {
 
 .textosPrincipais {
   color: #080707;
-  opacity: 1;
   margin-top: 1px;
   margin-left: 2%;
   margin-right: 2%;
@@ -43,7 +42,6 @@ body {
 }
 
 
-
 .tituloPrincipal {
   animation: slide-up 1.5s ease-out;
   color: black;
@@ -51,7 +49,6 @@ body {
   padding: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0);
   opacity: 1;
-
 }
 
 
@@ -71,16 +68,15 @@ body {
   filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
+
 #escritorio {
-  background-image: url(mulherDigitando.jpg);
-  background-size: cover;
   background-position: 50%, 0%;
   justify-content: center;
   margin-top: 0%;
   height: 200px;
-  opacity: 0.5;
   filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
+
 
 .content-img {
   width: 300px;
