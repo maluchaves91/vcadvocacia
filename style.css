@@ -126,24 +126,20 @@ border-bottom-left-radius: 30px;
 
 fieldset {
   border: 1px solid #000000;
-  padding: 10px;
-  /* controla a distancia entre os elementos e a borda */
-  margin: 15px;
-  width: 30%;
-  /* margem para alinhar o fieldset com o restante do grid */
-
-
-}
-
-.duvidas{
-width: 30%;
-
+  padding: 10px;  
+  background-color: white;
 }
 
 
-fieldset, legend {
+
+
+fieldset {
   all: revert;
+  background-color: white;
 }
+legend{
+  all: revert;}
+
 
 .titulo{
   text-align: center;
