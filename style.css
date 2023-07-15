@@ -9,7 +9,6 @@ body {
 
 .textosPrincipais {
   color: #080707;
-  opacity: 1;
   margin-top: 1px;
   margin-left: 2%;
   margin-right: 2%;
@@ -69,19 +68,15 @@ body {
   filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
-<<<<<<< HEAD
-=======
+
 #escritorio {
-  background-image: url(mulherDigitando.jpg);
-  background-size: cover;
   background-position: 50%, 0%;
   justify-content: center;
   margin-top: 0%;
   height: 200px;
-  opacity: 0.5;
   filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
->>>>>>> 7d8e7ef791633f0b29dfccff53c66b49bed9b184
+
 
 .content-img {
   width: 300px;
