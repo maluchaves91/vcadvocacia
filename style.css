@@ -70,16 +70,6 @@ text-align: center;
     filter: brightness(70%) sepia(100%) hue-rotate(180deg);
 }
 
-#escritorio{
-background-image: url(mulherDigitando.jpg);
-background-size: cover;
-background-position: 50%, 0%;
-justify-content: center;
-margin-top: 0%;
-height: 200px;
-opacity: 0.5;
-filter: brightness(70%) sepia(100%) hue-rotate(180deg);
-}
 
 .content-img{
 width: 300px;
