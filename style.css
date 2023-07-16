@@ -1,11 +1,12 @@
 body {
   background-color: #faebd7;
-}
-
-.fundo {
-
   text-align: center;
 }
+
+.sections {
+  padding-top: 10%; 
+}
+
 
 .textosPrincipais {
   color: #080707;
@@ -167,6 +168,8 @@ legend {
   font-size: 3.5em;
   margin-bottom: 2%;
 }
+
+
 
 .duvidas{
 
