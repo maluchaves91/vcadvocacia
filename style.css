@@ -65,7 +65,7 @@ body {
   align-items: center;
   margin-top: 0%;
   height: 400px;
-  filter: brightness(70%) sepia(100%) hue-rotate(180deg);
+  filter: brightness(75%) sepia(100%) hue-rotate(16deg);
 }
 
 
@@ -74,7 +74,7 @@ body {
   justify-content: center;
   margin-top: 0%;
   height: 200px;
-  filter: brightness(70%) sepia(100%) hue-rotate(180deg);
+  filter: brightness(70%) sepia(100%) hue-rotate(180deg) contrast(5%);
 }
 
 
