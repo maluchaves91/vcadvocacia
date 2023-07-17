@@ -75,7 +75,7 @@ body {
   justify-content: center;
   margin-top: 0%;
   height: 200px;
-  filter: brightness(70%) sepia(100%) hue-rotate(180deg) contrast(5%);
+  filter: brightness(60%) sepia(100%) hue-rotate(160deg);
 }
 
 
