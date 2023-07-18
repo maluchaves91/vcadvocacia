@@ -109,17 +109,17 @@ body {
 .telefones {
   color: #f0d6b6;
   text-decoration: none;
+  font-size: 100%;
 
 }
 
 .telefones a {
-
   text-decoration: none;
-
+  
 }
 
 .logos {
-  font-size: 2em;
+  font-size: 100%;
 }
 
 #contato {
