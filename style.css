@@ -4,7 +4,7 @@ body {
 }
 
 .sections {
-  padding-top: 10%; 
+  padding-top: 10%;
 }
 
 
@@ -50,6 +50,9 @@ body {
   padding: 20px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0);
   opacity: 1;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Ysabeau SC', sans-serif;
 }
 
 
@@ -66,7 +69,7 @@ body {
   align-items: center;
   margin-top: 0%;
   height: 400px;
-  filter: brightness(75%) sepia(100%) hue-rotate(16deg);
+  filter: brightness(75%) sepia(100%) hue-rotate(0deg);
 }
 
 
@@ -93,9 +96,9 @@ body {
   font-family: 'Ysabeau Office', sans-serif;
 }
 
-.content-icon{
+.content-icon {
   color: rgb(212, 191, 120);
-  
+
 }
 
 .titulo {
@@ -109,8 +112,8 @@ body {
 
 }
 
-.telefones a{
- 
+.telefones a {
+
   text-decoration: none;
 
 }
@@ -143,18 +146,18 @@ fieldset {
 
 fieldset {
   all: revert;
-  background-color: #fff8ee ;
+  background-color: #fff8ee;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.areasEspecificas a{
+.areasEspecificas a {
   text-decoration: none;
-  color:black;
+  color: black;
   line-height: 3;
 }
 
@@ -171,23 +174,23 @@ legend {
 
 
 
-.duvidas{
+.duvidas {
 
- margin-left: 5%;
- 
+  margin-left: 5%;
+
 }
 
-.sendMail{
+.sendMail {
   background-color: rgba(60, 49, 49);
-  color:#f0d6b6 ;
+  color: #f0d6b6;
   border-radius: 10px;
-  padding-left:1.5%;
-  padding-right:1.5%;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
 }
 
-.sendMail:hover{
+.sendMail:hover {
   background-color: #dcae6f;
-  color:black;
+  color: black;
 }
 
 /*Podemos fazer os seguintes tratamentos em nossos elementos:
