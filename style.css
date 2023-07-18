@@ -168,6 +168,8 @@ ul {
   text-decoration: none;
   color: black;
   line-height: 3;
+  width: auto;
+  display:inline-block
 }
 
 legend {
