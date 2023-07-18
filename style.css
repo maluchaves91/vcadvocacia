@@ -154,6 +154,10 @@ fieldset {
   margin: 0 auto; /* Centralizar o <fieldset> horizontalmente */
 }
 
+.logoAtuacao{
+  line-height: 5em;
+}
+
 ul {
   list-style: none;
   padding: 0;
