@@ -149,6 +149,11 @@ fieldset {
   background-color: #fff8ee;
 }
 
+.custom-fieldset {
+  width: 90%; /* Altere o valor para ajustar o tamanho desejado */
+  margin: 0 auto; /* Centralizar o <fieldset> horizontalmente */
+}
+
 ul {
   list-style: none;
   padding: 0;
