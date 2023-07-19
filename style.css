@@ -205,31 +205,42 @@ legend {
   color: black;
 }
 
+.align{
+  margin-left: 10%;
+}
 
 @media (max-width: 768px) {
-  
+
+  .align{
+    margin-left: 0;
+  }
+
+  .logoAtuacao a {
+    white-space: nowrap;
+    }
+
+  #escritorio {
+    height: auto;
+    padding-bottom: 50px; 
+    
+  }
+
+  #area {
+    margin-top: 50px; 
+  }
   .areasAtuacao{
     width: auto;
   }
   .titulo{
     margin-top: 20%;
   }
+
   #home{
-    background-image: url(imagem3.png);
+    background-image: url(backgroundHome.jpg);
     background-size: cover;
     font-size: 20%;
+    
   }
+  
 }
 
-/*Podemos fazer os seguintes tratamentos em nossos elementos:
-
-blur(px) - nível de ofuscamento
-brightness(%) - ajusta o brilho
-contrast(%) - ajusta o contraste
-drop-shadow(h, v, blur, color) - aplica sombras
-grayscale(%) - transforma as cores do elemento para uma escala cinza
-hue-rotate(deg) - altera as cores do elemento
-invert(%) - inverte as cores do elemento
-opacity(%) - controla a opacidade do elemento
-saturate(%) - altera a saturação do elemento
-sepia(%) - transforma as cores do elemento para um tom sépia*/
