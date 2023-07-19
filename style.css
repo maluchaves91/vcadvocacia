@@ -181,6 +181,7 @@ legend {
   text-align: center;
   font-size: 3.5em;
   margin-bottom: 2%;
+  display: inline-block;
 }
 
 
@@ -202,6 +203,17 @@ legend {
 .sendMail:hover {
   background-color: #dcae6f;
   color: black;
+}
+
+
+@media (max-width: 768px) {
+  
+  .areasAtuacao{
+    width: auto;
+  }
+  .titulo{
+    margin-top: 20%;
+  }
 }
 
 /*Podemos fazer os seguintes tratamentos em nossos elementos:

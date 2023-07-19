@@ -9,3 +9,4 @@ function scrollToSection(area) {
 function redirecionarParaIndex() {
     window.location.href = "index.html#area";
 }
+
