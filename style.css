@@ -209,6 +209,11 @@ legend {
   margin-left: 10%;
 }
 
+.advogadosCard{
+  width:50%; 
+  overflow:hidden;
+}
+
 @media (max-width: 768px) {
 
   .align{
@@ -240,6 +245,11 @@ legend {
     background-size: cover;
     font-size: 20%;
     
+  }
+
+  .advogadosCard{
+    width:100%; 
+    overflow:hidden;
   }
   
 }
