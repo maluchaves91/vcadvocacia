@@ -214,6 +214,11 @@ legend {
   .titulo{
     margin-top: 20%;
   }
+  #home{
+    background-image: url(imagem3.png);
+    background-size: cover;
+    font-size: 20%;
+  }
 }
 
 /*Podemos fazer os seguintes tratamentos em nossos elementos:
