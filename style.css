@@ -61,7 +61,6 @@ body {
 }
 
 #home {
-  background-image: url(backgroundHome.jpg);
   background-size: cover;
   background-position: 50%, 0%;
   display: flex;
@@ -69,7 +68,7 @@ body {
   align-items: center;
   margin-top: 0%;
   height: 400px;
-  filter: brightness(75%) sepia(100%) hue-rotate(0deg);
+  
 }
 
 
