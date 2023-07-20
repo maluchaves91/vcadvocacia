@@ -124,7 +124,7 @@ body {
 #contato {
   bottom: 0;
   width: 100%;
-  background-color: rgba(60, 49, 49, 0.91);
+  background-color: #231a0d;
 }
 
 .areasAtuacao {
@@ -239,11 +239,12 @@ legend {
     margin-top: 20%;
   }
 
-  #home{
-    background-image: url(backgroundHome.jpg);
-    background-size: cover;
-    font-size: 20%;
-    
+  .tituloPrincipalMobile{
+    width: 90%;
+  }
+
+  .nomesAdvogados{
+    margin-top: 10%;
   }
 
   .advogadosCard{
