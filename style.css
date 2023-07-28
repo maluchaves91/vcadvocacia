@@ -95,7 +95,7 @@ body {
 }
 
 .content-icon {
-  color: rgb(212, 191, 120);
+  color: #c18824;
 
 }
 
@@ -105,9 +105,16 @@ body {
 }
 
 .telefones {
-  color: #f0d6b6;
+  color: white;
   text-decoration: none;
   font-size: 100%;
+
+}
+
+.telefones:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 120%;
 
 }
 
