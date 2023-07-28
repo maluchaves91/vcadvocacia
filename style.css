@@ -87,6 +87,12 @@ body {
   border-radius: 5px;
 }
 
+.content-img:hover{
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .informacoes {
   text-align: center;
   color: #aa8144;
