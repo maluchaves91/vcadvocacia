@@ -94,6 +94,7 @@ body {
     color: #aa8144;
     text-decoration: none;
     font-family: 'Ysabeau Office', sans-serif;
+    font-size: 150%;
   }
   
   .content-icon {
@@ -128,21 +129,7 @@ body {
   .logos {
     font-size: 100%;
   }
-  
-  #contato {
-    bottom: 0;
-    width: 100%;
-    background-color: black;
-  }
-  
-  .areasAtuacao {
-    margin-top: 10%;
-  }
-  
-  .conteudoAreaAtuacao {
-    text-align: justify;
-    list-style: none;
-  }
+
   
   fieldset {
     border: 1px solid #000000;
@@ -161,9 +148,7 @@ body {
     margin: 0 auto; /* Centralizar o <fieldset> horizontalmente */
   }
   
-  .logoAtuacao{
-    line-height: 5em;
-  }
+
   
   ul {
     list-style: none;
@@ -262,4 +247,31 @@ body {
     
   }
   
-  
+  /*importando*/
+
+  footer {
+    background-color: black;
+    color: #515256;
+    height: 10%;
+}
+
+.rodape{
+  padding-top: 1%;
+  line-height: 250%;
+}
+
+.coluna{
+  padding-bottom: 5%;
+}
+
+footer.footer-black {
+    background: #222222;
+}
+
+footer h5,
+.de_light footer h5 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: none;
+}
+
