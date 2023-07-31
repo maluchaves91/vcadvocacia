@@ -94,7 +94,7 @@ body {
     color: #aa8144;
     text-decoration: none;
     font-family: 'Ysabeau Office', sans-serif;
-    font-size: 150%;
+    font-size: 190%;
   }
   
   .content-icon {
@@ -110,14 +110,14 @@ body {
   .telefones {
     color: white;
     text-decoration: none;
-    font-size: 100%;
+    font-size: 150%;
   
   }
   
   .telefones:hover {
     color: #c18824;
     text-decoration: none;
-    font-size: 120%;
+    font-size: 170%;
   
   }
   
@@ -127,7 +127,7 @@ body {
   }
   
   .logos {
-    font-size: 100%;
+    font-size: 150%;
   }
 
   
@@ -176,7 +176,9 @@ body {
     display: inline-block;
   }
   
-  
+  .address{
+    font-size: 120%;
+  }
   
   .duvidas {
   
@@ -262,16 +264,7 @@ body {
 
 .coluna{
   padding-bottom: 5%;
-}
-
-footer.footer-black {
-    background: #222222;
-}
-
-footer h5,
-.de_light footer h5 {
-    color: #fff;
-    font-size: 16px;
-    text-transform: none;
+  margin-left: 1%;
+  margin-right: 2%;
 }
 
