@@ -1,270 +1,168 @@
 body {
-    background-color: white;
-    text-align: center;
-  }
-   
-  
-  .textosPrincipais {
-    color: #080707;
-    margin-top: 1px;
-    margin-left: 2%;
-    margin-right: 2%;
-    text-align: justify;
-  }
-  
-  .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-  }
-  
-  .dropdown-menu a.dropdown-item:hover {
-    background-color: #faebd7;
-    color: #000;
-  }
-  
-  @keyframes slide-up {
-    0% {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-  
-    100% {
-      transform: translateY(0%);
-      opacity: 1;
-    }
-  }
-  
-  .transparent {
-    opacity: 1;
-  }
-  
-  
-  .tituloPrincipal {
-    animation: slide-up 1.5s ease-out;
-    color: black;
-    background-color: rgba(255, 255, 255, 0);
-    padding: 20px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0);
-    opacity: 1;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Ysabeau SC', sans-serif;
-  }
-  
-  
-  .imagens {
-    float: left;
-  }
-  
-  #home {
-    background-size: cover;
-    background-position: 50%, 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0%;
-    height: 400px;
-    
-  }
-  
-  
-  #escritorio {
-    background-position: 50%, 0%;
-    justify-content: center;
-    margin-top: 0%;
-    height: 200px;
-    filter: brightness(60%) sepia(100%) hue-rotate(160deg);
-  }
-  
-  
-  .content-img {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    border-radius: 5px;
-  }
-  
-  .content-img:hover{
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    transform: scale(1.2);
-  }
-  
-  .informacoes {
-    text-align: center;
-    color: #aa8144;
-    text-decoration: none;
-    font-family: 'Ysabeau Office', sans-serif;
-    font-size: 190%;
-  }
-  
-  .content-icon {
-    color: #c18824;
-  
-  }
-  
-  .titulo {
-    font-family: 'Ysabeau Office', sans-serif;
-    color: #aa8144;
-  }
-  
-  .telefones {
-    color: white;
-    text-decoration: none;
-    font-size: 150%;
-  
-  }
-  
-  .telefones:hover {
-    color: #c18824;
-    text-decoration: none;
-    font-size: 170%;
-  
-  }
-  
-  .telefones a {
-    text-decoration: none;
-    
-  }
-  
-  .logos {
-    font-size: 150%;
-  }
-
-  
-  fieldset {
-    border: 1px solid #000000;
-    padding: 10px;
-    background-color: white;
-  }
-  
-  
-  fieldset {
-    all: revert;
-    background-color: #fff8ee;
-  }
-  
-  .custom-fieldset {
-    width: 90%; /* Altere o valor para ajustar o tamanho desejado */
-    margin: 0 auto; /* Centralizar o <fieldset> horizontalmente */
-  }
-  
-
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .areasEspecificas a {
-    text-decoration: none;
-    color: black;
-    line-height: 3;
-    width: auto;
-    display:inline-block
-  }
-  
-  legend {
-    all: revert;
-  }
-  
-  
-  .titulo {
-    text-align: center;
-    font-size: 3.5em;
-    margin-bottom: 2%;
-    display: inline-block;
-  }
-  
-  .address{
-    font-size: 120%;
-  }
-  
-  .duvidas {
-  
-    margin-left: 5%;
-  
-  }
-  
-  .sendMail {
-    background-color: rgba(60, 49, 49);
-    color: #f0d6b6;
-    border-radius: 10px;
-    padding-left: 1.5%;
-    padding-right: 1.5%;
-  }
-  
-  .sendMail:hover {
-    background-color: #dcae6f;
-    color: black;
-  }
-  
-  .align{
-    margin-left: 10%;
-  }
-  
-  .advogadosCard{
-    width:60%; 
-    overflow:hidden;
-  }
-  
-  @media (max-width: 768px) {
-  
-    .align{
-      margin-left: 0;
-    }
-  
-    .logoAtuacao a {
-      white-space: nowrap;
-      }
-  
-    #escritorio {
-      height: auto;
-      padding-bottom: 50px; 
-      
-    }
-  
-    #area {
-      margin-top: 50px; 
-    }
-    .areasAtuacao{
-      width: auto;
-    }
-    .titulo{
-      margin-top: 20%;
-    }
-  
-    .tituloPrincipalMobile{
-      width: 90%;
-    }
-  
-    .nomesAdvogados{
-      margin-top: 10%;
-    }
-  
-    .advogadosCard{
-      width:100%; 
-      overflow:hidden;
-    }
-    
-  }
-  
-  /*importando*/
-
-  footer {
-    background-color: black;
-    color: #515256;
-    height: 10%;
+  background-color: white;
+  text-align: center;
 }
 
-.rodape{
+/*header*/
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+  background-color: #faebd7;
+  color: #000;
+}
+
+/*main*/
+.titulo {
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #aa8144;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+
+
+fieldset {
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: white;
+}
+
+fieldset {
+  all: revert;
+  background-color: #fff8ee;
+}
+
+.custom-fieldset {
+  width: 90%;
+  /* Altere o valor para ajustar o tamanho desejado */
+  margin: 0 auto;
+  /* Centralizar o <fieldset> horizontalmente */
+}
+
+.areasEspecificas a {
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+  width: auto;
+  display: inline-block
+}
+
+legend {
+  all: revert;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 3.5em;
+  margin-bottom: 2%;
+  display: inline-block;
+}
+
+.duvidas {
+  margin-left: 5%;
+
+}
+
+/*Footer*/
+
+.rodape {
   padding-top: 1%;
   line-height: 250%;
+  background-color: black;
 }
 
-.coluna{
-  padding-bottom: 5%;
-  margin-left: 1%;
-  margin-right: 2%;
+.informacoes {
+  color: #aa8144;
+  text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
 }
 
+
+
+.address {
+  font-size: 100%;
+  line-height: 10%;
+  color: #c18824;
+}
+
+.telefones,
+.mail {
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
+
+}
+
+.telefones:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 170%;
+
+}
+
+.telefones a {
+  text-decoration: none;
+
+}
+
+.mail:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 155%;
+}
+
+.logos {
+  font-size: 150%;
+}
+
+/*Para tamanhos diversos de tela*/
+
+@media (max-width: 768px) {
+
+  .align {
+    margin-left: 0;
+  }
+
+  .logoAtuacao a {
+    white-space: nowrap;
+  }
+
+  #escritorio {
+    height: auto;
+    padding-bottom: 50px;
+
+  }
+
+  #area {
+    margin-top: 50px;
+  }
+
+  .areasAtuacao {
+    width: auto;
+  }
+
+  .titulo {
+    margin-top: 20%;
+  }
+
+  .tituloPrincipalMobile {
+    width: 90%;
+  }
+
+  .nomesAdvogados {
+    margin-top: 10%;
+  }
+
+  .advogadosCard {
+    width: 100%;
+    overflow: hidden;
+  }
+
+}
