@@ -1,6 +1,8 @@
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
-  text-align: center;
 }
 
 /*header*/
@@ -13,16 +15,38 @@ body {
   color: #000;
 }
 
+.divLeft img{
+object-fit: none;
+width: 100%;
+height: 400px;
+}
 
 .divLeft {
-  background-image: url(imagens/previdenciario.png);
-  background-size: cover;
-  height: 300px;
-  float: inline-start;
+  width: 100%;
+  height: 400px;
   filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
   -webkit-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
   -moz-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
 
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.holder img, .holder p {
+  position: absolute;
+  text-align: center;
+}
+
+.tituloPrincipal{
+  top:8%;
+  z-index: 1000;
+  font-size: 200px;
+  color: black;
+  font-family: 'Ysabeau Office', sans-serif;
 }
 
 .conteudoAreaAtuacao {
@@ -35,21 +59,6 @@ body {
 .navAnchor{
   color:white;
   text-decoration: none;
-}
-
-.tituloPrincipal {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 8%;
-  left: 25%;
-  padding: 5%;
-  opacity: 1;
-  text-align: center;
-  font-size: 100px;
-  color: rgb(0, 0, 0);
-  font-family: 'Ysabeau Office', sans-serif;
 }
 
 /*main*/
@@ -216,17 +225,7 @@ legend {
     font-family: 'Ysabeau Office', sans-serif;
   }
 
-  #home {
-
-    background-image: url(previdenciario.png);
-    background-size: cover;
-    background-position: top;
-    height: 500px;
-    filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
-    -webkit-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
-    -moz-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
-  }
-
+  
   /*main*/
   .titulo {
     font-family: 'Ysabeau Office', sans-serif;
