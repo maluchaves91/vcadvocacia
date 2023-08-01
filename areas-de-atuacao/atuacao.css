@@ -172,6 +172,20 @@ legend {
   font-size: 180%;
 }
 
+
+.sendMail {
+  background-color: rgba(60, 49, 49);
+  color: #f0d6b6;
+  border-radius: 10px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+.sendMail:hover {
+  background-color: #dcae6f;
+  color: black;
+}
+
 /*Para tamanhos diversos de tela*/
 
 @media (max-width: 768px) {
