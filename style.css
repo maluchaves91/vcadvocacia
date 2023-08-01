@@ -135,7 +135,13 @@ fieldset {
 
 
 .logoAtuacao{
-  line-height: 5em;
+  line-height: 10em;
+}
+
+.logoAtuacao a{
+  text-decoration: none;
+  font-size:x-large;
+  color:#000;
 }
 
 ul {
@@ -165,17 +171,23 @@ legend {
 }
 
 .rodape {
-  padding-top: 1%;
+  padding-top: 3%;
   padding-bottom: 4%;
   line-height: 250%;
   background-color: black;
 
 }
 
-.informacoes {
+.information {
   font-size: 200%;
   color: #aa8144;
   text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.informacoes {
+  font-size: 300%;
+  color: #c18824;
   font-family: 'Ysabeau Office', sans-serif;
 }
 
@@ -183,7 +195,7 @@ legend {
 
 .address {
   font-size: 120%;
-  margin-top: 4%;
+  margin-top: 8%;
 }
 
 .telefones,
