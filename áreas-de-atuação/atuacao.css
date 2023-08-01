@@ -9,8 +9,47 @@ body {
 }
 
 .dropdown-menu a.dropdown-item:hover {
-  background-color: #faebd7;
+  background-color: white;
   color: #000;
+}
+
+
+.divLeft {
+  background-image: url(imagens/previdenciario.png);
+  background-size: cover;
+  height: 300px;
+  float: inline-start;
+  filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+  -webkit-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+  -moz-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+
+}
+
+.conteudoAreaAtuacao {
+  margin-top: 3%;
+  font-size: 120%;
+  text-align: justify;
+  list-style: none;
+}
+
+.navAnchor{
+  color:white;
+  text-decoration: none;
+}
+
+.tituloPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 8%;
+  left: 25%;
+  padding: 5%;
+  opacity: 1;
+  text-align: center;
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  font-family: 'Ysabeau Office', sans-serif;
 }
 
 /*main*/
@@ -74,11 +113,14 @@ legend {
 
 .rodape {
   padding-top: 1%;
+  padding-bottom: 4%;
   line-height: 250%;
   background-color: black;
+
 }
 
 .informacoes {
+  font-size: 200%;
   color: #aa8144;
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
@@ -87,9 +129,8 @@ legend {
 
 
 .address {
-  font-size: 100%;
-  line-height: 10%;
-  color: #c18824;
+  font-size: 120%;
+  margin-top: 4%;
 }
 
 .telefones,
@@ -97,7 +138,6 @@ legend {
   color: white;
   text-decoration: none;
   font-size: 150%;
-
 }
 
 .telefones:hover {
@@ -109,7 +149,7 @@ legend {
 
 .telefones a {
   text-decoration: none;
-
+  font-size: 170%;
 }
 
 .mail:hover {
@@ -118,51 +158,182 @@ legend {
   font-size: 155%;
 }
 
-.logos {
-  font-size: 150%;
+.logos1,
+.logos2,
+.logos3,
+.logos4 {
+  font-size: 220%;
+}
+
+.logos1:hover,
+.logos2:hover,
+.logos3:hover,
+.logos4:hover {
+  font-size: 180%;
 }
 
 /*Para tamanhos diversos de tela*/
 
 @media (max-width: 768px) {
 
-  .align {
-    margin-left: 0;
-  }
-
-  .logoAtuacao a {
-    white-space: nowrap;
-  }
-
-  #escritorio {
-    height: auto;
-    padding-bottom: 50px;
+  .divLeft {
+    background-image: url(previdenciario.png);
+    background-size: cover;
+    height: 200px;
+    float: inline-start;
+    filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+    -webkit-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+    -moz-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
 
   }
 
-  #area {
-    margin-top: 50px;
+  .tituloPrincipal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    padding: 5%;
+    opacity: 1;
+    text-align: center;
+    font-size: 200%;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau Office', sans-serif;
   }
 
-  .areasAtuacao {
+  #home {
+
+    background-image: url(previdenciario.png);
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+    -webkit-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+    -moz-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
+  }
+
+  /*main*/
+  .titulo {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #aa8144;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+  }
+
+  iframe {
     width: auto;
+    height: 200;
+  }
+
+  fieldset {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: white;
+  }
+
+  fieldset {
+    all: revert;
+    background-color: #fff8ee;
+  }
+
+  .custom-fieldset {
+    width: 90%;
+    /* Altere o valor para ajustar o tamanho desejado */
+    margin: 0 auto;
+    /* Centralizar o <fieldset> horizontalmente */
+  }
+
+  .areasEspecificas a {
+    text-decoration: none;
+    color: black;
+    line-height: 3;
+    width: auto;
+    display: inline-block
+  }
+
+  legend {
+    all: revert;
   }
 
   .titulo {
-    margin-top: 20%;
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 2%;
+    display: inline-block;
   }
 
-  .tituloPrincipalMobile {
-    width: 90%;
+  .duvidas {
+    margin-left: 5%;
+
   }
 
-  .nomesAdvogados {
-    margin-top: 10%;
+  /*Footer*/
+
+  .rodape {
+    padding-top: 1%;
+    padding-bottom: 4%;
+    line-height: 250%;
+    background-color: black;
+
   }
 
-  .advogadosCard {
-    width: 100%;
-    overflow: hidden;
+  .informacoes {
+    font-size: 200%;
+    color: #aa8144;
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+
+
+
+  .address {
+    font-size: 120%;
+    margin-top: 4%;
+  }
+
+  .telefones,
+  .mail {
+    color: white;
+    text-decoration: none;
+    font-size: 150%;
+  }
+
+  .telefones:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 170%;
+
+  }
+
+  .telefones a {
+    text-decoration: none;
+    font-size: 170%;
+  }
+
+  .mail:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 155%;
+  }
+
+  .logos1,
+  .logos2,
+  .logos3,
+  .logos4 {
+    font-size: 220%;
+  }
+
+  .logos1:hover,
+  .logos2:hover,
+  .logos3:hover,
+  .logos4:hover {
+    font-size: 180%;
   }
 
 }

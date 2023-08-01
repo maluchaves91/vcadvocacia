@@ -93,12 +93,7 @@ body {
   transform: scale(1.2);
 }
 
-.informacoes {
-  text-align: center;
-  color: #aa8144;
-  text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
-}
+
 
 .content-icon {
   color: #c18824;
@@ -108,29 +103,6 @@ body {
 .titulo {
   font-family: 'Ysabeau Office', sans-serif;
   color: #aa8144;
-}
-
-.telefones {
-  color: white;
-  text-decoration: none;
-  font-size: 100%;
-
-}
-
-.telefones:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 120%;
-
-}
-
-.telefones a {
-  text-decoration: none;
-  
-}
-
-.logos {
-  font-size: 100%;
 }
 
 #contato {
@@ -160,10 +132,6 @@ fieldset {
   background-color: #fff8ee;
 }
 
-.custom-fieldset {
-  width: 90%; /* Altere o valor para ajustar o tamanho desejado */
-  margin: 0 auto; /* Centralizar o <fieldset> horizontalmente */
-}
 
 .logoAtuacao{
   line-height: 5em;
@@ -195,6 +163,62 @@ legend {
   display: inline-block;
 }
 
+.rodape {
+  padding-top: 1%;
+  padding-bottom: 4%;
+  line-height: 250%;
+  background-color: black;
+
+}
+
+.informacoes {
+  font-size: 200%;
+  color: #aa8144;
+  text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+
+
+.address {
+  font-size: 120%;
+  margin-top: 4%;
+}
+
+.telefones,
+.mail {
+  color: white;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.telefones:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 170%;
+
+}
+
+
+.mail:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 155%;
+}
+
+.logos1,
+.logos2,
+.logos3,
+.logos4 {
+  font-size: 210%;
+}
+
+.logos1:hover,
+.logos2:hover,
+.logos3:hover,
+.logos4:hover {
+  font-size: 180%;
+}
 
 
 .duvidas {

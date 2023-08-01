@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
 <!--setor que não é visível ao usuário-->
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,78 +21,111 @@
   <!--link bootstrap-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
-  </script>
+    </script>
 
   <!--Início do cabeçalho do site-->
   <header>
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: #231a0d;">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
       <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img src="logoVNnav.png" width="100px"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span><i class="fa-solid fa-bars" style="color: #f0d6b6;"></i></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a style="color: #f0d6b6 ;" class="nav-link active" aria-current="page"
-                          href="index.html">Home
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="color: #f0d6b6 ;" class="nav-link active" href="index.html#escritorio">O
-                          Escritório
-                      </a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="index.html#area" role="button"
-                          data-bs-toggle="dropdown" aria-expanded="false" style="color: #f0d6b6 ;"
-                          onclick="redirecionarParaIndex()">
-                          Área de Atuação
-                      </a>
-                      <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="administrativo.html">Administrativo</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="civil.html">Civil</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="constitucional.html">Constitucional</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="consumidor.html">Consumidor</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="criminal.html">Criminal</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="familiaesucessoes.html">Familia e sucessões</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="previdenciario.html">Previdênciario</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="saude.html">Saúde</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="trabalhista.html">Trabalhista</a></li>
-                          <hr class="dropdown-divider">
-                          <li><a class="dropdown-item" href="tributario.html">Tributário</a></li>
-                      </ul>
-                  </li>
-                  <li class="nav-item">
-                      <a style="color: #f0d6b6 ;" class="nav-link active" href="index.html#advogados">Advogados
-                      </a>
-                  </li>
-                  <li class="nav-item">
-                      <a style="color: #f0d6b6 ;" class="nav-link active" href="#contato">Contato</a>
-                  </li>
+        <a class="navbar-brand" href="index.html"><img src="imagens/logoVN.png" width="150px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a style="color: white ;" class="nav-link active" aria-current="page"
+                href="https://maluchaves91.github.io/vcadvocacia/index.html">Home
+                &nbsp;
+                &#124;
+
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white ;" class="nav-link active"
+                href="https://maluchaves91.github.io/vcadvocacia/index.html#escritorio">O
+                Escritório
+                &nbsp;
+                &#124;
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="index.html#area" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false" style="color: white ;" onclick="redirecionarParaIndex()">
+                Área de Atuação
+
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="civil.html">Civil</a></li>
+                <hr class="dropdown-divider">
+                <li><a class="dropdown-item" href="criminal.html">Criminal</a></li>
+                <hr class="dropdown-divider">
+                <li><a class="dropdown-item" href="previdenciario.html">Previdênciario</a></li>
+                <hr class="dropdown-divider">
+                <li><a class="dropdown-item" href="trabalhista.html">Trabalhista</a></li>
               </ul>
-          </div>
+
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white ;" class="nav-link active"
+                href="https://maluchaves91.github.io/vcadvocacia/index.html#advogados">
+                &#124; &nbsp;Advogados
+                &nbsp;
+                &#124;
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white ;" class="nav-link active" href="empresas.html">Para Empresas
+                &nbsp;
+                &#124;
+              </a>
+
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white ;" class="nav-link active" href="#contato">Contato
+                &nbsp;
+                &#124;
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a style="color: white ;" class="nav-link active" href="#novidades">Novidades</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
+
+    <div class="divLeft">
+
+    </div>
+    <div class="textDiv">
+      <h2 class="tituloPrincipal">Previdenciário</h2>
+    </div>
+
+
+
   </header>
   <!--Fim do cabeçalho do site-->
 
   <!--Início do conteúdo principal do site-->
   <main>
+
+
+
     <!--Início do conteúdo sobre previdenciário-->
     <div class="container areasAtuacao">
-      <h2 class="informacoes titulo">Previdenciário</h2>
       <div class="conteudoAreaAtuacao">
-        <p class="areasEspecificas">Nossos advogados especialistas podem auxiliar com:</p>
+        <p class="areasEspecificas">Na área previdenciária, a VN Advocacia atua inicialmente de forma administrativa,
+          podendo estender-se à esfera judicial, buscando a concessão e/ou revisão de benefícios previdenciários.
+          Nossos advogados especialistas podem auxiliar com:
+        </p>
         <ul class="areasEspecificas">
           <a href="https://api.whatsapp.com/send?phone=5512997840397&text=Tenho dúvidas sobre aposentadoria"
             target="_blank">
@@ -103,7 +137,7 @@
             <li><i class="fa-regular fa-square-check"></i>&nbsp; Auxílio-acidente</li>
           </a>
           <br>
-          <a href="https://api.whatsapp.com/send?phone=5512997840397&text=Tenho dúvidas sobre pensão por morte"
+          <a  href="https://api.whatsapp.com/send?phone=5512997840397&text=Tenho dúvidas sobre pensão por morte"
             target="_blank">
             <li><i class="fa-regular fa-square-check"></i>&nbsp; Pensão por morte</li>
           </a>
@@ -135,58 +169,48 @@
     <br><br><br>
 
     <!--Início do Formulário com a Imagem ao lado-->
-    <div class="container text-center">
-      <div class="row">
-        <div class="col-sm-6 col-md-5 col-lg-6">
-          <img class="rounded" src="previdenciario.png" width="100%">
+    <form class="col-md-6 offset-md-3" action="https://formspree.io/f/mdorovvg" method="POST">
+      <fieldset class="rounded custom-fieldset">
+        <legend>Tire sua dúvida</legend>
+        <br>
+        <div class="col-12">
+          <div class="input-group">
+            <div class="input-group-text" style="background-color:#e7c292;">E-mail</div>
+            <input style="background-color:white ;" name="email" type="text" class="form-control"
+              placeholder="name@example.com">
+          </div>
         </div>
-        <div class="col-sm-6 col-md-5 offset-md-2 col-lg-6 offset-lg-0">
-          <br>
-          <form class="row row-cols-lg-auto g-3 align-items-center" action="https://formspree.io/f/mdorovvg"
-            method="POST" style="margin-left: 10%;">
-            <fieldset class="rounded custom-fieldset">
-              <legend>Tire sua dúvida</legend>
-              <br>
-              <div class="col-12">
-                <div class="input-group">
-                  <div class="input-group-text" style="background-color:#e7c292;">E-mail</div>
-                  <input style="background-color:#f0d6b6 ;" name="email" type="text" class="form-control"
-                    placeholder="name@example.com">
-                </div>
-              </div>
 
-              <br>
+        <br>
 
-              <div class="col-12">
-                <select name="subject" style="background-color:#e7c292;" class="form-select" id="inlineFormSelectPref">
-                  <option selected>Previdenciário</option>
-                  <option value="Aposentadoria">Aposentadoria</option>
-                  <option value="Auxílio-acidente">Auxílio-acidente</option>
-                  <option value="Pensão por morte">Pensão por morte</option>
-                  <option value="Benefícios assistenciais (BPC)">Benefícios assistenciais (BPC)s</option>
-                  <option value="Auxílio-doença">Auxílio-doença</option>
-                  <option value="Auxílio-reclusão">Auxílio-reclusão</option>
-                  <option value="Salário-maternidade">Salário-maternidade</option>
-                </select>
-              </div>
-
-              <br>
-
-              <div class="col-auto">
-                <textarea style="background-color:#e7c292 ;" class="form-control" name="message" rows="3"
-                  placeholder="mensagem">
-                </textarea>
-              </div>
-
-              <br>
-
-              <!-- your other form fields go here -->
-              <button type="submit" class="sendMail">Enviar</button>
-            </fieldset>
-          </form>
+        <div class="col-12">
+          <select name="subject" style="background-color:#e7c292;" class="form-select" id="inlineFormSelectPref">
+            <option selected>Previdenciário</option>
+            <option value="Aposentadoria">Aposentadoria</option>
+            <option value="Auxílio-acidente">Auxílio-acidente</option>
+            <option value="Pensão por morte">Pensão por morte</option>
+            <option value="Benefícios assistenciais (BPC)">Benefícios assistenciais (BPC)s</option>
+            <option value="Auxílio-doença">Auxílio-doença</option>
+            <option value="Auxílio-reclusão">Auxílio-reclusão</option>
+            <option value="Salário-maternidade">Salário-maternidade</option>
+          </select>
         </div>
-      </div>
-    </div>
+
+        <br>
+
+        <div class="col-auto">
+          <textarea style="background-color:#e7c292 ;" class="form-control" name="message" rows="3"
+            placeholder="mensagem">
+        </textarea>
+        </div>
+
+        <br>
+
+        <!-- your other form fields go here -->
+        <button type="submit" class="sendMail">Enviar</button>
+      </fieldset>
+    </form>
+
     <!--Fim do Formulário com a Imagem ao lado-->
 
     <br><br><br>
@@ -199,9 +223,9 @@
     <section id="contato" class="rodape">
       <div class="container text-center">
         <div class="row align-items-start">
-          <div class="col-md-auto coluna">
+          <div class="col-md-3 coluna">
             <h3 class="informacoes rodape">Nossos telefones</h3>
-            <br>
+
             <h4 class="telefones rodape">(13)&nbsp;98809-6261</h4>
             <h4 class="telefones rodape">(13)&nbsp;99111-1285</h4>
 
@@ -210,40 +234,40 @@
             </a>
           </div>
 
-          <div class="col-md-auto">
+          <div class="col-md-4">
             <h3 class="informacoes rodape">Siga-nos nas redes sociais</h3>
-            <br>
-            <a class="telefones logos rodape" target="_blank" href="https://wa.me/5513988096261"><i
-                class="fa-brands fa-whatsapp fa-xl"></i>
+
+            <a class="telefones logos1 rodape" target="_blank" href="https://wa.me/5513988096261">
+              <i class="fa-brands fa-whatsapp fa-xl"></i>
             </a>
             &nbsp;
-            <a class="telefones logos rodape"
+            <a class="telefones logos2 rodape"
               href="mailto:vn.solucoesjuridicas@gmail.com?subject=Gostaria de tirar dúvidas"><i
                 class="fa-solid fa-envelope fa-xl"></i>
             </a>
             &nbsp;
-            <a target="_blank" class="telefones logos rodape"
+            <a target="_blank" class="telefones logos3 rodape"
               href="https://www.facebook.com/people/VN-Advocacia/100079115196925/"><i
                 class="fa-brands fa-facebook fa-xl"></i>
             </a>
             &nbsp;
-            <a target="_blank" class="telefones logos rodape" href="https://www.instagram.com/vn.adv/"><i
-                class="fa-brands fa-instagram fa-xl"></i>
+            <a target="_blank" class="telefones logos4 rodape" href="https://www.instagram.com/vn.adv/">
+              <i class="fa-brands fa-instagram fa-xl"></i>
             </a>
             <br><br>
           </div>
 
-       
-
           <div class="col-md-auto">
-            <h3 class="address">Av. Santos Dumont, 550 (Sala 4) - Sítio Paecara, Guarujá/SP</h3>
-            <br>
+            <h3 class="informacoes rodape address"><i class="fa-solid fa-location-dot"></i>Av. Santos Dumont, 550 (Sala
+              4) -
+              Sítio Paecara, Guarujá/SP
+            </h3>
+
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.360388074246!2d-46.29722530000001!3d-23.947693099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce03c37193ffff%3A0xc8b2bbc5e2adae6b!2svnadvocacia!5e0!3m2!1spt-BR!2sbr!4v1689184669625!5m2!1spt-BR!2sbr"
-              width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+              width="480" height="200" style="border:0;" allowfullscreen="" loading="lazy"
               referrerpolicy="no-referrer-when-downgrade">
             </iframe>
-
           </div>
         </div>
       </div>
@@ -252,7 +276,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://wa.me/5513997572898?text=Olá, tudo bem?" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
     z-index:1000;" target="_blank">
-    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+      <i style="margin-top:16px" class="fa fa-whatsapp"></i>
     </a>
 
   </footer>
