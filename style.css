@@ -178,24 +178,17 @@ legend {
 
 }
 
-.information {
-  font-size: 200%;
+.information, .address {
+  font-size: 190%;
   color: #aa8144;
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
 }
 
-.informacoes {
-  font-size: 300%;
+.informacoes  {
+  font-size: 190%;
   color: #c18824;
   font-family: 'Ysabeau Office', sans-serif;
-}
-
-
-
-.address {
-  font-size: 120%;
-  margin-top: 8%;
 }
 
 .telefones,

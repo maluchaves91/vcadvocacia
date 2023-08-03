@@ -71,8 +71,6 @@ ul {
   text-align: justify;
 }
 
-
-
 fieldset {
   border: 1px solid #000000;
   padding: 10px;
@@ -125,18 +123,11 @@ legend {
 
 }
 
-.informacoes {
-  font-size: 200%;
+.informacoes, .address {
+  font-size: 180%;
   color: #aa8144;
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
-}
-
-
-
-.address {
-  font-size: 120%;
-  margin-top: 3%;
 }
 
 .telefones,
@@ -308,20 +299,14 @@ legend {
     
     }
     
-    .informacoes {
+    .informacoes, .address {
       font-size: 200%;
       color: #aa8144;
       text-decoration: none;
       font-family: 'Ysabeau Office', sans-serif;
     }
     
-    
-    
-    .address {
-      font-size: 120%;
-      margin-top: 4%;
-    }
-    
+      
     .telefones,
     .mail {
       color: white;
