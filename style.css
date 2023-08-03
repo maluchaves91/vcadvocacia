@@ -209,6 +209,10 @@ legend {
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
 }
+.titulo-quem-somos{
+  text-decoration: none;
+  color: #c18824;
+}
 
 .informacoes  {
   font-size: 190%;
