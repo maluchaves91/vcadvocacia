@@ -1,3 +1,21 @@
+html{
+  height: 500vh;
+}
+
+.container-fluid{
+  max-width: 1280px;
+  margin: auto;
+}
+
+header{
+width: 100%;
+}
+
+header.rolagem{
+  background-color:#fff;
+
+}
+
 body {
   background-color: white;
   text-align: center;
