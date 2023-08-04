@@ -1,18 +1,18 @@
-html{
+html {
   height: 500vh;
 }
 
-.container-fluid{
+.container-fluid {
   max-width: 1280px;
   margin: auto;
 }
 
-header{
-width: 100%;
+header {
+  width: 100%;
 }
 
-header.rolagem{
-  background-color:#fff;
+header.rolagem {
+  background-color: #fff;
 
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .transparent {
-  opacity:0.5;
+  opacity: 0.5;
 }
 
 
@@ -85,7 +85,7 @@ body {
   align-items: center;
   margin-top: 0%;
   height: 400px;
-  
+
 }
 
 
@@ -93,30 +93,35 @@ body {
   background-position: 50%, 0%;
   justify-content: center;
   margin-top: 0%;
-  height: 200px;
-  filter: brightness(60%) sepia(100%) hue-rotate(160deg);
+  line-height: 2;
+  font-size: 120%;
 }
 
+#escritorio h2 {
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size: 200%;
+  line-height: 150%;
+}
 
-.teamZoom{
+.teamZoom {
   width: 100%;
 
 
- }
+}
 
- .teamZoom:hover{
-   width: 100%;
-   scale: 1.1;
+.teamZoom:hover {
+  width: 100%;
+  scale: 1.1;
 
-   
- }
+
+}
 
 .holder2 {
-   overflow: hidden;
-   width: 300px;
-   height: 300px;
- justify-content: center;
- align-items: center;
+  overflow: hidden;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -159,14 +164,14 @@ fieldset {
 }
 
 
-.logoAtuacao{
+.logoAtuacao {
   line-height: 10em;
 }
 
-.logoAtuacao a{
+.logoAtuacao a {
   text-decoration: none;
-  font-size:x-large;
-  color:#000;
+  font-size: x-large;
+  color: #000;
 }
 
 ul {
@@ -180,7 +185,7 @@ ul {
   color: black;
   line-height: 3;
   width: auto;
-  display:inline-block
+  display: inline-block
 }
 
 legend {
@@ -203,19 +208,27 @@ legend {
 
 }
 
-.information, .address {
+.information,
+.address {
   font-size: 190%;
   color: #aa8144;
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
 }
-.titulo-quem-somos{
+
+.titulo-quem-somos {
   text-align: center;
-    color: #c18824;
+  color: #c18824;
 }
 
-.informacoes  {
+.informationFooter{
   font-size: 190%;
+  color: #c18824;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+.informacoes {
+  font-size: 250%;
   color: #c18824;
   font-family: 'Ysabeau Office', sans-serif;
 }
@@ -264,53 +277,55 @@ legend {
 
 
 
-.align{
+.align {
   margin-left: 10%;
 }
 
-.advogadosCard{
-  width:60%; 
-  overflow:hidden;
+.advogadosCard {
+  width: 60%;
+  overflow: hidden;
 }
 
 @media (max-width: 768px) {
 
-  .align{
+  .align {
     margin-left: 0;
   }
 
   .logoAtuacao a {
     white-space: nowrap;
-    }
+  }
 
   #escritorio {
     height: auto;
-    padding-bottom: 50px; 
-    
+    padding-bottom: 50px;
+
   }
 
   #area {
-    margin-top: 50px; 
+    margin-top: 50px;
   }
-  .areasAtuacao{
+
+  .areasAtuacao {
     width: auto;
   }
-  .titulo{
+
+  .titulo {
     margin-top: 20%;
   }
 
-  .tituloPrincipalMobile{
+  .tituloPrincipalMobile {
     width: 90%;
   }
 
-  .nomesAdvogados{
+  .nomesAdvogados {
     margin-top: 10%;
   }
 
-  .advogadosCard{
-    width:100%; 
-    overflow:hidden;
+  .advogadosCard {
+    width: 100%;
+    overflow: hidden;
   }
-  
+
 }
 
