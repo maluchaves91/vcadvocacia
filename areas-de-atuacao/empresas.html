@@ -35,20 +35,15 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" aria-current="page"
-                href="../index.html">Home
+              <a style="color: white ;" class="nav-link active" aria-current="page" href="../index.html">Home
                 &nbsp;
-                
-
               </a>
             </li>
 
             <li class="nav-item">
-              <a style="color: white ;" class="nav-link active"
-                href="../index.html#escritorio">O
+              <a style="color: white ;" class="nav-link active" href="../index.html#escritorio">O
                 Escritório
                 &nbsp;
-                
               </a>
             </li>
 
@@ -71,26 +66,22 @@
             </li>
 
             <li class="nav-item">
-              <a style="color: white ;" class="nav-link active"
-                href="../index.html#advogados">
+              <a style="color: white ;" class="nav-link active" href="../index.html#advogados">
                 Advogados
                 &nbsp;
-                
+
               </a>
             </li>
 
             <li class="nav-item">
               <a style="color: white ;" class="nav-link active" href="empresas.html">Para Empresas
                 &nbsp;
-                
               </a>
-
             </li>
 
             <li class="nav-item">
               <a style="color: white ;" class="nav-link active" href="#contato">Contato
                 &nbsp;
-                
               </a>
             </li>
 
@@ -102,10 +93,23 @@
       </div>
     </nav>
 
-    <div class="divLeft"></div>
-    <div class="textDiv">
-      <h2 class="tituloPrincipal">Empresas</h2>
+    <div class="holder">
+      <div class="divLeft">
+        <img class="imageHeader" src="imagens/empresarial.png" alt="">
+      </div>
+      <p class="tituloPrincipal">Para empresas</p>
     </div>
+
+    <div class="container areasAtuacao" style="background-size: cover;">
+      <div class="conteudoAreaAtuacao">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+          est laborum.
+        </p>
+        <h2 class="informacoes">Serviços relacionados</h2>
+
 
 
 
@@ -118,49 +122,50 @@
 
 
 
+
     <br><br><br>
 
     <!--Início do Formulário com a Imagem ao lado-->
-    <form class="col-md-6 offset-md-3" action="https://formspree.io/f/mdorovvg" method="POST">
-      <fieldset class="rounded custom-fieldset">
-        <legend>Tire sua dúvida</legend>
-        <br>
-        <div class="col-12">
-          <div class="input-group">
-            <div class="input-group-text" style="background-color:#e7c292;">E-mail</div>
-            <input style="background-color:white ;" name="email" type="text" class="form-control"
-              placeholder="name@example.com">
+    <div class="container text-center">
+      <form class="col-md-6 offset-md-3" action="https://formspree.io/f/mdorovvg" method="POST">
+        <fieldset class="rounded custom-fieldset">
+          <legend>Tire sua dúvida</legend>
+          <br>
+          <div class="col-12">
+            <div class="input-group">
+              <div class="input-group-text" style="background-color:#e7c292;">E-mail</div>
+              <input style="background-color:white ;" name="email" type="text" class="form-control"
+                placeholder="name@example.com">
+            </div>
           </div>
-        </div>
 
-        <br>
+          <br>
 
-        <div class="col-12">
-          <select name="subject" style="background-color:#e7c292;" class="form-select" id="inlineFormSelectPref">
-            <option selected>Previdenciário</option>
-            <option value="Aposentadoria">Aposentadoria</option>
-            <option value="Auxílio-acidente">Auxílio-acidente</option>
-            <option value="Pensão por morte">Pensão por morte</option>
-            <option value="Benefícios assistenciais (BPC)">Benefícios assistenciais (BPC)s</option>
-            <option value="Auxílio-doença">Auxílio-doença</option>
-            <option value="Auxílio-reclusão">Auxílio-reclusão</option>
-            <option value="Salário-maternidade">Salário-maternidade</option>
-          </select>
-        </div>
+          <div class="col-12">
+            <select name="subject" style="background-color:#e7c292;" class="form-select" id="inlineFormSelectPref">
+              <option selected>Previdenciário</option>
+              <option value="Aposentadoria">Aposentadoria</option>
+              <option value="Auxílio-acidente">Auxílio-acidente</option>
+              <option value="Pensão por morte">Pensão por morte</option>
+              <option value="Benefícios assistenciais (BPC)">Benefícios assistenciais (BPC)s</option>
+              <option value="Auxílio-doença">Auxílio-doença</option>
+              <option value="Auxílio-reclusão">Auxílio-reclusão</option>
+              <option value="Salário-maternidade">Salário-maternidade</option>
+            </select>
+          </div>
 
-        <br>
+          <br>
 
-        <div class="col-auto">
-          <textarea style="background-color:#e7c292 ;" class="form-control" name="message" rows="3"
-            placeholder="mensagem">
+          <div class="col-auto">
+            <textarea style="background-color:#e7c292 ;" class="form-control" name="message" rows="3"
+              placeholder="mensagem">
         </textarea>
-        </div>
-
-        <br>
-
-        <!-- your other form fields go here -->
-        <button type="submit" class="sendMail">Enviar</button>
-      </fieldset>
+          </div>
+          <br>
+    </div>
+    <!-- your other form fields go here -->
+    <button type="submit" class="sendMail">Enviar</button>
+    </fieldset>
     </form>
 
     <!--Fim do Formulário com a Imagem ao lado-->
