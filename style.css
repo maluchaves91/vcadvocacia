@@ -332,7 +332,9 @@ legend {
 
 
 /*sessão novidades*/
-
+.card-body{
+  margin: auto;
+}
 
 
 
