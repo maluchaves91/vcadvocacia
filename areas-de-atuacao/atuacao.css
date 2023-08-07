@@ -53,6 +53,27 @@ height:40%;
   list-style: none;
 }
 
+.logoAtuacao {
+  line-height: 10em;
+}
+
+.logoAtuacao a {
+  text-decoration: none;
+  font-size: x-large;
+  color: #000;
+}
+
+.informacoesEmpresa{
+  text-align: center;
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #aa8144;
+  font-size: 250%;
+}
+
+.areasAtuacaoEmpresarial {
+  padding-top: 10%;
+}
+
 .navAnchor{
   color:white;
   text-decoration: none;
