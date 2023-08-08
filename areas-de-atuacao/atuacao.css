@@ -204,6 +204,11 @@ legend {
   color: black;
 }
 
+.blogText{
+  text-align: justify;
+  line-height: 1.7;
+}
+
 /*Para tamanhos diversos de tela*/
 
 @media (max-width: 768px) {
