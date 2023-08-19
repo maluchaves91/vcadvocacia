@@ -103,6 +103,14 @@ body {
   line-height: 150%;
 }
 
+.smooth-zoom {
+  transition: transform 0.3s ease; /* Transição suave */
+}
+
+.smooth-zoom:hover {
+  transform: scale(1.1); /* Efeito de zoom suave */
+}
+
 .teamZoom {
   width: 100%;
 
