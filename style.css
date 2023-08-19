@@ -1,48 +1,74 @@
-html {
-  height: 500vh;
-}
-
-.container-fluid {
-  max-width: 1280px;
-  margin: auto;
-}
-
-header {
-  width: 100%;
-}
-
-header.rolagem {
-  background-color: #fff;
-
-}
-
+/*Estutura do site*/
+/*cor da página*/
 body {
   background-color: white;
   text-align: center;
 }
 
+/*Padding entre as seções*/
 .sections {
   padding-top: 10%;
 }
 
-
-.textosPrincipais {
-  color: #080707;
-  margin-top: 1px;
-  margin-left: 2%;
-  margin-right: 2%;
-  text-align: justify;
+/*titulos do site*/
+.titulo {
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #cf9b4b ;
+  font-size: 3.5em;
+  margin-bottom: 1%;
 }
 
-.nav-item.dropdown:hover .dropdown-menu {
-  display: block;
+/*Traço no pós titulo*/
+.posTitulo {
+  border: none;
+  border-top: 3px solid;
+  margin: 0px;
+  margin-left: 48%;
+  width: 50px;
+  border-top-color: #090705;
+  margin-bottom: 1%;
 }
+/* Fim estutura do site*/
 
+
+/*Início navbar*/
+/*Navbar para mudar a cor ao passar o mouse*/
 .dropdown-menu a.dropdown-item:hover {
-  background-color: #faebd7;
+  background-color: #f0d6b6 ;
   color: #000;
 }
+/*Fim navbar*/
 
+
+/*Home*/
+/*Id que contém a imagem*/
+#imagemHeader {
+  position: absolute;
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  opacity: 0.5;
+
+}
+
+/*Div que contém a largura completa*/
+.divLeft {
+  width: 100%;
+  display: flex;
+  z-index: 0;
+}
+
+/*logo subindo*/
+.logoAnimado {
+  opacity: 1;
+  height: 750px;
+  width: 100%;
+  padding-top: 10%;
+  animation: slide-up 1.5s ease-out;
+  z-index: 1000;
+}
+
+/*animação*/
 @keyframes slide-up {
   0% {
     transform: translateY(100%);
@@ -54,76 +80,66 @@ body {
     opacity: 1;
   }
 }
-
-.transparent {
-  opacity: 0.5;
-}
+/*Fim do Home*/
 
 
-.tituloPrincipal {
-  animation: slide-up 1.5s ease-out;
-  color: black;
-  background-color: rgba(255, 255, 255, 0);
-  padding: 20px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0);
-  opacity: 1;
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Ysabeau SC', sans-serif;
-}
-
-
-.imagens {
-  float: left;
-}
-
-#home {
-  background-size: cover;
-  background-position: 50%, 0%;
+/*Início do quem somos*/
+.quemSomos{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top: 0%;
-  height: 400px;
-
 }
 
-
-#escritorio {
-  background-position: 50%, 0%;
-  justify-content: center;
-  margin-top: 0%;
+.quemSomos p{
+  width: 60%; 
+  text-align: justify; 
+  padding: auto;
   line-height: 2;
-  font-size: 120%;
-}
-
-#escritorio h2 {
   font-family: 'Ysabeau Office', sans-serif;
-  font-size: 200%;
-  line-height: 150%;
+  font-size: x-large;
+}
+/*Fim do quem somos*/
+
+
+/*Início áreas de atuação*/
+/*cores dos ícones da área de atuação*/
+.content-icon {
+  color: #cf9b4b ;
+  margin-right: 2%;
+
 }
 
+.areaAtuacao a{
+  text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
+  color:black;
+  font-size: x-large;
+}
+
+.lineAreaAtuacao{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/*Fim áreas de atuação*/
+
+
+/*Início do Nossa Equipe + Advogados Parceiros*/
+/*ajuste da imagem e das cores de cada imagem dos advogados*/
 .smooth-zoom {
-  transition: transform 0.3s ease; /* Transição suave */
+  border-radius: 5px;
+  width: 100%;
+  transition: transform 0.3s ease;
+  /* Transição suave */
+  background: rgb(214, 214, 214);
+  background: linear-gradient(165deg, rgba(214, 214, 214, 1) 0%, rgba(249, 249, 249, 1) 100%);
 }
 
+/*Efeito de zoom quando passa o mouse*/
 .smooth-zoom:hover {
-  transform: scale(1.1); /* Efeito de zoom suave */
+  transform: scale(1.08);
+  /* Efeito de zoom suave */
 }
 
-.teamZoom {
-  width: 100%;
-
-
-}
-
-.teamZoom:hover {
-  width: 100%;
-  scale: 1.1;
-
-
-}
-
+/*para conter a imagem dos advogados dentro da div*/
 .holder2 {
   overflow: hidden;
   width: 300px;
@@ -132,17 +148,18 @@ body {
   align-items: center;
 }
 
-
-
-.content-icon {
-  color: #c18824;
-
+/*Para alinhar o accordion com a imagem dos advogados*/
+.advogadosCard {
+  width: 60%;
+  overflow: hidden;
 }
+/*Fim do Nossa Equipe + Advogados Parceiros*/
 
-.titulo {
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #aa8144;
-}
+
+
+
+
+
 
 #contato {
   bottom: 0;
@@ -150,63 +167,8 @@ body {
   background-color: black;
 }
 
-.areasAtuacao {
-  margin-top: 10%;
-}
-
-.conteudoAreaAtuacao {
-  text-align: justify;
-  list-style: none;
-}
-
-fieldset {
-  border: 1px solid #000000;
-  padding: 10px;
-  background-color: white;
-}
 
 
-fieldset {
-  all: revert;
-  background-color: #fff8ee;
-}
-
-
-.logoAtuacao {
-  line-height: 10em;
-}
-
-.logoAtuacao a {
-  text-decoration: none;
-  font-size: x-large;
-  color: #000;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.areasEspecificas a {
-  text-decoration: none;
-  color: black;
-  line-height: 3;
-  width: auto;
-  display: inline-block
-}
-
-legend {
-  all: revert;
-}
-
-
-.titulo {
-  text-align: center;
-  font-size: 3.5em;
-  margin-bottom: 2%;
-  display: inline-block;
-}
 
 .rodape {
   padding-top: 3%;
@@ -229,7 +191,7 @@ legend {
   color: #c18824;
 }
 
-.informationFooter{
+.informationFooter {
   font-size: 190%;
   color: #c18824;
   font-family: 'Ysabeau Office', sans-serif;
@@ -277,24 +239,9 @@ legend {
 }
 
 
-.duvidas {
 
-  margin-left: 5%;
-
-}
-
-
-
-.align {
-  margin-left: 10%;
-}
-
-.advogadosCard {
-  width: 60%;
-  overflow: hidden;
-}
-
-@media (max-width: 768px) {
+/*Para aplicativos com tela inferior 1000*/
+@media (max-width: 1000px) {
 
   .align {
     margin-left: 0;
@@ -336,12 +283,3 @@ legend {
   }
 
 }
-
-
-
-/*sessão novidades*/
-
-
-
-
-
