@@ -8,6 +8,7 @@ body {
 /*Padding entre as seções*/
 .sections {
   padding-top: 10%;
+  margin-bottom:5%;
 }
 
 /*titulos do site*/
@@ -36,6 +37,10 @@ body {
 .dropdown-menu a.dropdown-item:hover {
   background-color: #f0d6b6 ;
   color: #000;
+}
+
+.logoNavBar{
+  width: 200px;
 }
 /*Fim navbar*/
 
@@ -105,7 +110,6 @@ body {
 .content-icon {
   color: #cf9b4b ;
   margin-right: 2%;
-
 }
 
 .areaAtuacao a{
@@ -153,24 +157,18 @@ body {
   width: 60%;
   overflow: hidden;
 }
+
+/*margim para não deixar o título colado com o nome dos advogados*/
+.nomesAdvogados {
+  margin-top: 10%;
+}
 /*Fim do Nossa Equipe + Advogados Parceiros*/
 
 
-
-
-
-
-
-#contato {
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-}
-
-
-
-
+/*Início do rodapé*/
+/*Para deixar fixado em baixo o rodapé*/
 .rodape {
+  bottom:0;
   padding-top: 3%;
   padding-bottom: 4%;
   line-height: 250%;
@@ -178,30 +176,13 @@ body {
 
 }
 
-.information,
-.address {
-  font-size: 190%;
-  color: #aa8144;
-  text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
-}
-
-.titulo-quem-somos {
-  text-align: center;
-  color: #c18824;
-}
-
+/*Estilo do rodapé*/
 .informationFooter {
   font-size: 190%;
   color: #c18824;
   font-family: 'Ysabeau Office', sans-serif;
 }
 
-.informacoes {
-  font-size: 250%;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
-}
 
 .telefones,
 .mail {
@@ -216,7 +197,6 @@ body {
   font-size: 170%;
 
 }
-
 
 .mail:hover {
   color: #c18824;
@@ -238,48 +218,266 @@ body {
   font-size: 180%;
 }
 
-
+.btn_whats{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+}
 
 /*Para aplicativos com tela inferior 1000*/
 @media (max-width: 1000px) {
+  /*Estutura do site*/
+/*cor da página*/
 
-  .align {
-    margin-left: 0;
+/*Padding entre as seções*/
+.sections {
+  padding-top: 5%;
+  margin-bottom:5%;
+}
+
+/*titulos do site*/
+.titulo {
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #cf9b4b ;
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+
+/*Traço no pós titulo*/
+.posTitulo {
+  border: none;
+  border-top: 3px solid;
+  margin: 0px;
+  margin-left: 48%;
+  width: 50px;
+  border-top-color: #090705;
+  margin-bottom: 1%;
+}
+/* Fim estutura do site*/
+
+
+/*Início navbar*/
+/*Navbar para mudar a cor ao passar o mouse*/
+.dropdown-menu a.dropdown-item:hover {
+  background-color: #f0d6b6 ;
+  color: #000;
+}
+
+.logoNavBar{
+  width: 100px;
+}
+/*Fim navbar*/
+
+
+/*Home*/
+/*Id que contém a imagem*/
+#imagemHeader {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  opacity: 0.5;
+
+}
+
+/*Div que contém a largura completa*/
+.divLeft {
+  width: 100%;
+  display: flex;
+  z-index: 0;
+}
+
+/*logo subindo*/
+.logoAnimado {
+  opacity: 1;
+  width: 100%;
+  height: 200px;
+  padding-top: 20%;
+  animation: slide-up 1.5s ease-out;
+  z-index: 1000;
+}
+
+.tituloPrincipalMobile{
+  width: 60%;
+}
+
+/*animação*/
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
   }
 
-  .logoAtuacao a {
-    white-space: nowrap;
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
   }
+}
+/*Fim do Home*/
 
-  #escritorio {
-    height: auto;
-    padding-bottom: 50px;
 
-  }
+/*Início do quem somos*/
+.quemSomos{
+  display: flex;
+  justify-content: center;
+}
 
-  #area {
-    margin-top: 50px;
-  }
+.quemSomos p{
+  width: 70%; 
+  text-align: justify; 
+  padding: auto;
+  line-height: 1.5;
+  font-family: 'Ysabeau Office', sans-serif;
+  font-size:medium;
+}
+/*Fim do quem somos*/
 
-  .areasAtuacao {
-    width: auto;
-  }
 
-  .titulo {
-    margin-top: 20%;
-  }
+/*Início áreas de atuação*/
+/*cores dos ícones da área de atuação*/
+.content-icon {
+  color: #cf9b4b ;
+  margin-right: 2%;
+  font-size: medium;
+  text-align: justify;
+}
 
-  .tituloPrincipalMobile {
-    width: 90%;
-  }
+.areaAtuacao a{
+  text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
+  color:black;
+  font-size: medium;
+}
 
-  .nomesAdvogados {
-    margin-top: 10%;
-  }
+.lineAreaAtuacao{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+/*Fim áreas de atuação*/
 
-  .advogadosCard {
-    width: 100%;
-    overflow: hidden;
-  }
+
+/*Início do Nossa Equipe + Advogados Parceiros*/
+/*ajuste da imagem e das cores de cada imagem dos advogados*/
+.smooth-zoom {
+  border-radius: 5px;
+  width: 100%;
+  transition: transform 0.3s ease;
+  /* Transição suave */
+  background: rgb(214, 214, 214);
+  background: linear-gradient(165deg, rgba(214, 214, 214, 1) 0%, rgba(249, 249, 249, 1) 100%);
+}
+
+/*Efeito de zoom quando passa o mouse*/
+.smooth-zoom:hover {
+  transform: scale(1.08);
+  /* Efeito de zoom suave */
+}
+
+/*para conter a imagem dos advogados dentro da div*/
+.holder2 {
+  overflow: hidden;
+  width: 230px;
+  height: 230px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Para alinhar o accordion com a imagem dos advogados*/
+.advogadosCard {
+  width:70%;
+  overflow: hidden;
+}
+
+/*margim para não deixar o título colado com o nome dos advogados*/
+.nomesAdvogados {
+  font-size: large;
+  margin-top: 10%;
+}
+
+.accordion-body{
+  font-size: small;
+}
+
+/*Fim do Nossa Equipe + Advogados Parceiros*/
+
+
+/*Início do rodapé*/
+/*Para deixar fixado em baixo o rodapé*/
+.rodape {
+  bottom:0;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  line-height: 250%;
+  background-color: black;
+
+}
+
+/*Estilo do rodapé*/
+.informationFooter {
+  font-size: 125%;
+  color: #c18824;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+
+.telefones,
+.mail {
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.telefones:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 130%;
+
+}
+
+.mail:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 130%;
+}
+
+.logos1,
+.logos2,
+.logos3,
+.logos4 {
+  font-size:170%;
+}
+
+.logos1:hover,
+.logos2:hover,
+.logos3:hover,
+.logos4:hover {
+  font-size: 120%;
+}
+
+#maps{
+  width: 80%;
+}
+
+.btn_whats{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#25d366;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+}
 
 }
