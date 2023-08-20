@@ -259,10 +259,90 @@ fieldset {
 /*FIM do rodapé*/
 
 /*Para aplicativos com tela inferior 768*/
-@media (max-width: 441px) {}
+@media (max-width: 441px) {
+  .areasAtuacao {
+    margin-top: 90%;
+  }
+}
 
 /*Para aplicativos com tela entre 441 && 768*/
-@media (min-width: 441px) and (max-width: 769px) {}
+@media (min-width: 441px) and (max-width: 769px) {
+  .areasAtuacao {
+    margin-top: 60%;
+  }
+}
 
 /*Para aplicativos com tela inferior entre 769 e 1000*/
-@media (min-width: 769px) and (max-width: 1000px) {}
+@media (min-width: 768px) and (max-width: 1199px) {
+
+  .areasAtuacao {
+    margin-top: 35%;
+  }
+/*Início do rodapé*/
+/*Estilo do rodapé*/
+.rodape {
+  bottom:0;
+  padding-top: 3%;
+  padding-bottom: 4%;
+  line-height: 250%;
+  background-color: black;
+
+}
+
+.informationFooter {
+  font-size: 140%;
+  color: #c18824;
+  font-family: 'Ysabeau Office', sans-serif;
+}
+
+
+.telefones,
+.mail {
+  color: white;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.telefones:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 120%;
+
+}
+
+.mail:hover {
+  color: #c18824;
+  text-decoration: none;
+  font-size: 115%;
+}
+
+.logos1,
+.logos2,
+.logos3,
+.logos4 {
+  font-size: 150%;
+}
+
+.logos1:hover,
+.logos2:hover,
+.logos3:hover,
+.logos4:hover {
+  font-size: 180%;
+}
+
+.btn_whats {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index: 1000;
+}
+/*FIM do rodapé*/
+}
