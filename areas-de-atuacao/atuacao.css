@@ -35,7 +35,7 @@ height:40%;
 }
 
 .tituloPrincipal{
-  top:15%;
+  top:20%;
   z-index: 1000;
   font-size: 100px;
   color: black;
@@ -132,6 +132,14 @@ legend {
 .duvidas {
   margin-left: 5%;
 
+}
+
+.logoNavBar{
+width: 200px;
+}
+
+.navbar-fixed-top{
+  background-color: #000000;
 }
 
 /*Footer*/

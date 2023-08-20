@@ -1,104 +1,138 @@
 <!doctype html>
 <html lang="en">
+
 <!--setor que não é visível ao usuário-->
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap" rel="stylesheet">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VN Advocacia</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-  <link rel="stylesheet" href="atuacao.css">
-  <script src="main.js"></script>
-  <script src="https://kit.fontawesome.com/3b7c1eabb4.js" crossorigin="anonymous"></script>
+    <!--Colocar os meta para vincular melhor no Google-->
+
+    <!--FIM - Colocar os meta para vincular melhor no Google-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VN Advocacia</title>
+
+    <!--Para substituir o ícone do google para o logo da empresa-->
+    <link rel="icon" href="imagens/logoVNnav.png" type="image/x-icon">
+    <link rel="shortcut icon" href="imagens/logoVNnav.png" type="image/x-icon">
+    <!--Fim para substituir o ícone do google para o logo da empresa-->
+
+
+    <!--Link boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!--FIM do link boostrap-->
+
+    <!--Fonte Ysabeau Office-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office&display=swap" rel="stylesheet">
+    <!--Fim da fonte-->
+
+    <!--Vinculo com CSS-->
+    <link rel="stylesheet" href="atuacao.css">
+    <!--Fim do vinculo com CSS-->
+
+    <!--Fontawesome - Ícones-->
+    <script src="https://kit.fontawesome.com/3b7c1eabb4.js" crossorigin="anonymous"></script>
+    <!--Fim da fontawesome - Ícones-->
+
 </head>
 <!-- fim setor que não é visível ao usuário-->
 
-<body style="display: block;">
-  <!--link bootstrap-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
-    </script>
+<body>
+    <!--link bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <!--Fim do link bootstrap-->
 
-  <!--Início do cabeçalho do site-->
-  <header>
-    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: black;">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html"><img src="imagens/logoVN.png" width="150px"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" aria-current="page" href="../index.html">Home
-                &nbsp;
+    <!--cabeçalho do site-->
+    <header>
+        <!--Inicio da Navbar (elemento bootstrap)-->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html"><img src="imagens/logoVN.png" class="logoNavBar"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars" style="color: white;"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a style="color: white ;" class="nav-link active" aria-current="page" href="../index.html">Home
+                                &nbsp;
+                            </a>
+                        </li>
 
+                        <li class="nav-item">
+                            <a style="color: white ;" class="nav-link active" href="../index.html#quemSomos">O
+                                Escritório
+                                &nbsp;
+                            </a>
+                        </li>
 
-              </a>
-            </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html#area" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="color: white ;"
+                                onclick="redirecionarParaIndex()">
+                                Área de Atuação
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="civil.html">Civil</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="consumidor.html">Consumidor</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="criminal.html">Criminal</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="familia.html">Família</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="previdenciario.html">Previdênciario</a></li>
+                                <hr class="dropdown-divider">
+                                <li><a class="dropdown-item" href="trabalhista.html">Trabalhista</a>
+                                </li>
+                            </ul>
 
-            <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" href="../index.html#escritorio">O
-                Escritório
-                &nbsp;
+                        </li>
 
-              </a>
-            </li>
+                        <li class="nav-item">
+                            <a style="color: white ;" class="nav-link active" href="../index.html#advogados">
+                                Advogados
+                                &nbsp;
+                            </a>
+                        </li>
 
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="../index.html#area" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false" style="color: white ;" onclick="redirecionarParaIndex()">
-                Área de Atuação
+                        <li class="nav-item">
+                            <a style="color: white ;" class="nav-link active" href="../empresas.html">Para
+                                Empresas
+                                &nbsp;
+                            </a>
 
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="civil.html">Civil</a></li>
-                <hr class="dropdown-divider">
-                <li><a class="dropdown-item" href="criminal.html">Criminal</a></li>
-                <hr class="dropdown-divider">
-                <li><a class="dropdown-item" href="previdenciario.html">Previdênciario</a></li>
-                <hr class="dropdown-divider">
-                <li><a class="dropdown-item" href="trabalhista.html">Trabalhista</a></li>
-              </ul>
+                        </li>
 
+                        <li class="nav-item">
+                            <a style="color: white ;" class="nav-link active" href="#contato">Contato
+                                &nbsp;
+                            </a>
+                        </li>
 
-            </li>
+                        <li class="nav-item">
+                            <a style="color: white ;" class="nav-link active" href="../novidades.html">Novidades</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Inicio da Navbar (elemento bootstrap)-->
 
-            <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" href="../index.html#advogados">
-                Advogados
-                &nbsp;
+    </header>
+    <!--fim do cabeçalho-->
 
-              </a>
-            </li>
+]
 
-            <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" href="empresas.html">Para Empresas
-                &nbsp;
+  <!--Início do conteúdo principal do site-->
+  <main>
 
-              </a>
-
-            </li>
-
-            <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" href="#contato">Contato
-                &nbsp;
-
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" href="novidades.html">Novidades</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
     <div class="holder">
       <div class="divLeft">
         <img class="imageHeader" src="imagens/civil.png" alt="">
@@ -106,12 +140,6 @@
       <p class="tituloPrincipal">Civil</p>
     </div>
 
-  </header>
-
-  <!--Fim do cabeçalho do site-->
-
-  <!--Início do conteúdo principal do site-->
-  <main>
     <!--Início do conteúdo sobre civil-->
     <div class="container areasAtuacao" style="background-size: cover;">
       <div class="conteudoAreaAtuacao">
