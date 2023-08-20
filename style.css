@@ -233,6 +233,22 @@ body {
   box-shadow: 1px 1px 2px #888;
   z-index:1000;
 }
+
+.btn_precisaAjuda {
+  position: fixed;
+  width: 200px;
+  padding: 10px;
+  top: 20px;
+  right: 40px;
+  background-color: #c18824;
+  color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1000;
+  text-decoration: none;
+  line-height: 1.5;
+}
 /*FIM do rodapé*/
 
 
@@ -411,6 +427,9 @@ body {
 
 #maps{
   width: 80%;
+}
+.btn_precisaAjuda {
+  display: none;
 }
 }
 
@@ -593,6 +612,9 @@ body {
 
 #maps{
   width: 80%;
+}
+.btn_precisaAjuda {
+  display: none;
 }
 }
 
@@ -778,4 +800,15 @@ body {
 #maps{
   width: 80%;
 }
+.btn_precisaAjuda {
+  display: none;
+}
+}
+
+
+/*Para aplicativos com tela entre 999 && 1224*/
+@media (min-width: 999px) and (max-width: 1224px) {
+  .btn_precisaAjuda {
+    display: none;
+  }
 }
