@@ -1,26 +1,72 @@
+/*Estutura do site*/
+/*cor da página*/
 body {
   background-color: white;
+  text-align: center;
 }
 
-/*header*/
-.nav-item.dropdown:hover .dropdown-menu {
-  display: block;
+/*Padding entre as seções*/
+.sections {
+  padding-top: 10%;
+  margin-bottom: 5%;
 }
 
+/*titulos do site*/
+.titulo {
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #cf9b4b;
+  font-size: 3.5em;
+  margin-bottom: 1%;
+}
+
+/*Traço no pós titulo*/
+.posTitulo {
+  border: none;
+  border-top: 3px solid;
+  margin: 0px;
+  margin-left: 48%;
+  width: 50px;
+  border-top-color: #090705;
+  margin-bottom: 1%;
+}
+
+/* Fim estutura do site*/
+
+
+/*Início navbar*/
+/*Navbar para mudar a cor ao passar o mouse*/
 .dropdown-menu a.dropdown-item:hover {
-  background-color: white;
+  background-color: #f0d6b6;
   color: #000;
 }
 
-.imageHeader{
-object-fit: cover;
-width: 100%;
-height:40%;
+.logoNavBar {
+  width: 200px;
 }
 
+
+.navbar-fixed-top {
+  background-color: #000000;
+}
+
+/*Fim navbar*/
+
+
+/*Home*/
+/*Div que contém a largura completa*/
 .divLeft {
   width: 100%;
+  display: flex;
+  z-index: 0;
 }
+
+/*Class que contém a imagem*/
+.imageHeader {
+  object-fit: cover;
+  width: 100%;
+  height: 40%;
+}
+
 
 .holder {
   width: 100%;
@@ -29,20 +75,73 @@ height:40%;
   align-items: center;
 }
 
-.holder img, .holder p {
+.holder img,
+.holder p {
   position: absolute;
   text-align: center;
 }
 
-.tituloPrincipal{
-  top:20%;
+
+.tituloPrincipal {
+  top: 20%;
   z-index: 1000;
   font-size: 100px;
   color: black;
   font-family: 'Ysabeau Office', sans-serif;
 }
 
-.areasAtuacao{
+/*Fim do Home*/
+
+
+
+/*Início áreas de atuação*/
+/*cores dos ícones da área de atuação*/
+#area {
+  margin-top: 12%;
+}
+
+.content-icon {
+  color: #cf9b4b;
+  margin-right: 2%;
+}
+
+.areaAtuacao a {
+  text-decoration: none;
+  font-family: 'Ysabeau Office', sans-serif;
+  color: black;
+  font-size: x-large;
+}
+
+.lineAreaAtuacao {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+/*Fim áreas de atuação*/
+
+/*texto*/
+.blogText {
+  text-align: justify;
+  line-height: 1.7;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: justify;
+}
+
+.areasEspecificas a {
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+  width: auto;
+  display: inline-block
+}
+
+.areasAtuacao {
   margin-top: 23%;
 }
 
@@ -53,45 +152,11 @@ height:40%;
   list-style: none;
 }
 
-.logoAtuacao {
-  line-height: 10em;
-}
+/*FIM do texto*/
 
-.logoAtuacao a {
-  text-decoration: none;
-  font-size: x-large;
-  color: #000;
-}
 
-.informacoesEmpresa{
-  text-align: center;
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #aa8144;
-  font-size: 250%;
-}
-
-.areasAtuacaoEmpresarial {
-  padding-top: 10%;
-}
-
-.navAnchor{
-  color:white;
-  text-decoration: none;
-}
-
-/*main*/
-.titulo {
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #aa8144;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: justify;
-}
-
+/*Edição do Forms*/
+/*Início do forms*/
 fieldset {
   border: 1px solid #000000;
   padding: 10px;
@@ -110,42 +175,23 @@ fieldset {
   /* Centralizar o <fieldset> horizontalmente */
 }
 
-.areasEspecificas a {
-  text-decoration: none;
+.sendMail {
+  background-color: rgba(60, 49, 49);
+  color: #f0d6b6;
+  border-radius: 10px;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+
+.sendMail:hover {
+  background-color: #dcae6f;
   color: black;
-  line-height: 3;
-  width: auto;
-  display: inline-block
 }
+/*FIM do forms*/
 
-legend {
-  all: revert;
-}
-
-.titulo {
-  text-align: center;
-  font-size: 3.5em;
-  margin-bottom: 2%;
-  display: inline-block;
-}
-
-.duvidas {
-  margin-left: 5%;
-
-}
-
-.logoNavBar{
-width: 200px;
-}
-
-.navbar-fixed-top{
-  background-color: #000000;
-}
-
-/*Footer*/
 
 /*Início do rodapé*/
-/*Para deixar fixado em baixo o rodapé*/
+/*Estilo do rodapé*/
 .rodape {
   bottom:0;
   padding-top: 3%;
@@ -155,7 +201,6 @@ width: 200px;
 
 }
 
-/*Estilo do rodapé*/
 .informationFooter {
   font-size: 190%;
   color: #c18824;
@@ -197,217 +242,27 @@ width: 200px;
   font-size: 180%;
 }
 
-.btn_whats{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
+.btn_whats {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
   box-shadow: 1px 1px 2px #888;
-  z-index:1000;
+  z-index: 1000;
 }
+/*FIM do rodapé*/
 
-.sendMail {
-  background-color: rgba(60, 49, 49);
-  color: #f0d6b6;
-  border-radius: 10px;
-  padding-left: 1.5%;
-  padding-right: 1.5%;
-}
+/*Para aplicativos com tela inferior 768*/
+@media (max-width: 441px) {}
 
-.sendMail:hover {
-  background-color: #dcae6f;
-  color: black;
-}
+/*Para aplicativos com tela entre 441 && 768*/
+@media (min-width: 441px) and (max-width: 769px) {}
 
-.blogText{
-  text-align: justify;
-  line-height: 1.7;
-}
-
-/*Para tamanhos diversos de tela*/
-
-@media (max-width: 768px) {
-  .divLeft img{
-    object-fit: none;
-    width: 100%;
-    height: 400px;
-    }
-    
-    .divLeft {
-      width: 100%;
-      height: 400px;
-      filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
-      -webkit-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
-      -moz-filter: grayscale(53%) sepia(21%) blur(1px) brightness(107%) hue-rotate(18deg) saturate(126%) contrast(96%) invert(4%);
-    
-    }
-    
-    .holder {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .holder img, .holder p {
-      position: absolute;
-      text-align: center;
-    }
-    
-    .tituloPrincipal{
-      top:30%;
-      z-index: 1000;
-      font-size: 300%;
-      color: black;
-      font-family: 'Ysabeau Office', sans-serif;
-    }
-    
-    .conteudoAreaAtuacao {
-      margin-top: 3%;
-      font-size: 100%;
-      text-align: justify;
-      list-style: none;
-    }
-    
-    .navAnchor{
-      color:white;
-      text-decoration: none;
-    }
-    
-    /*main*/
-    .titulo {
-      font-family: 'Ysabeau Office', sans-serif;
-      color: #aa8144;
-    }
-    
-    ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-      text-align: justify;
-    }
-    
-    
-    
-    fieldset {
-      border: 1px solid #000000;
-      padding: 10px;
-      background-color: white;
-    }
-    
-    fieldset {
-      all: revert;
-      background-color: #fff8ee;
-    }
-    
-    .custom-fieldset {
-      width: 80%;
-      /* Altere o valor para ajustar o tamanho desejado */
-      margin: 0 auto;
-      /* Centralizar o <fieldset> horizontalmente */
-    }
-    
-    .areasEspecificas a {
-      text-decoration: none;
-      color: black;
-      line-height: 3;
-      width: auto;
-      display: inline-block
-    }
-    
-    legend {
-      all: revert;
-    }
-    
-    .titulo {
-      text-align: center;
-      font-size: 3.5em;
-      margin-bottom: 2%;
-      display: inline-block;
-    }
-    
-    .duvidas {
-      margin-left: 5%;
-    
-    }
-    
-    /*Footer*/
-    
-    .rodape {
-      padding-top: 3%;
-      padding-bottom: 4%;
-      line-height: 250%;
-      background-color: black;
-    
-    }
-    
-    .informacoes, .address {
-      font-size: 200%;
-      color: #aa8144;
-      text-decoration: none;
-      font-family: 'Ysabeau Office', sans-serif;
-    }
-    
-      
-    .telefones,
-    .mail {
-      color: white;
-      text-decoration: none;
-      font-size: 150%;
-    }
-    
-    .telefones:hover {
-      color: #c18824;
-      text-decoration: none;
-      font-size: 170%;
-    
-    }
-    
-    .telefones a {
-      text-decoration: none;
-      font-size: 170%;
-    }
-    
-    .mail:hover {
-      color: #c18824;
-      text-decoration: none;
-      font-size: 155%;
-    }
-    
-    .logos1,
-    .logos2,
-    .logos3,
-    .logos4 {
-      font-size: 220%;
-    }
-    
-    .logos1:hover,
-    .logos2:hover,
-    .logos3:hover,
-    .logos4:hover {
-      font-size: 180%;
-    }
-    
-    
-    .sendMail {
-      background-color: rgba(60, 49, 49);
-      color: #f0d6b6;
-      border-radius: 10px;
-      padding-left: 1.5%;
-      padding-right: 1.5%;
-    }
-    
-    .sendMail:hover {
-      background-color: #dcae6f;
-      color: black;
-    }
-
-    iframe{
-      width: 100%;
-    }
-}
+/*Para aplicativos com tela inferior entre 769 e 1000*/
+@media (min-width: 769px) and (max-width: 1000px) {}
