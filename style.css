@@ -19,6 +19,7 @@ body {
   margin-bottom: 1%;
 }
 
+
 /*Traço no pós titulo*/
 .posTitulo {
   border: none;
@@ -62,6 +63,7 @@ body {
   display: flex;
   z-index: 0;
 }
+
 
 /*logo subindo*/
 .logoAnimado {
@@ -536,6 +538,10 @@ body {
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
+/*area de atuação empresas.html*/
+
+
 /*Fim áreas de atuação*/
 
 

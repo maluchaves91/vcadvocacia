@@ -107,7 +107,7 @@
             </li>
 
             <li class="nav-item">
-              <a style="color: white ;" class="nav-link active" href="empresas.html">Para
+              <a style="color: white ;" class="nav-link active scroll-link" href="#area">Para
                 Empresas
                 &nbsp;
               </a>
@@ -149,7 +149,7 @@
         <div class="row lineAreaAtuacao">
           <!--Civil-->
           <div class="col-md-6 ms-auto iconesEmpresarial">
-            <a href="#civil">
+            <a href="javascript:void(0);" onclick="goToCivilSection('civilTitulo')">
               <i class="fa-solid fa-handshake fa-2xl content-icon"></i>
               Civil
             </a>
@@ -157,7 +157,7 @@
 
           <!--Consumidor-->
           <div class="col-md-6 ms-auto iconesEmpresarial">
-            <a href="#consumidor">
+            <a href="javascript:void(0);" onclick="goToConsumidorSection('consumidorTitulo')">
               <i class="fa-solid fa-cart-shopping fa-2xl content-icon"></i>
               Consumidor
             </a>
@@ -173,7 +173,7 @@
         <div class="row lineAreaAtuacao">
           <!--Família-->
           <div class="col-md-6 ms-auto iconesEmpresarial">
-            <a href="#empresarial">
+            <a href="javascript:void(0);" onclick="goToEmpresarialSection('empresarialTitulo')">
               <i class="fa-solid fa-people-roof fa-2xl content-icon"></i>
               Empresarial
             </a>
@@ -181,8 +181,8 @@
 
           <!--Trabalhista-->
           <div class="col-md-6 ms-auto iconesEmpresarial">
-            <a href="#trabalhista">
-              <i class="fa-solid fa-person-digging fa-2xl content-icon"></i>
+            <a href="javascript:void(0);" onclick="goToTrabalhistaSection('trabalhistaTitulo')">
+              <i class="fa-solid fa-handshake fa-2xl content-icon"></i>
               Trabalhista
             </a>
           </div>
@@ -196,7 +196,7 @@
 
     <section id="civil">
       <div class="container areasAtuacaoEmpresarial">
-        <h3 class="titulo">Civil</h3>
+        <h3 class="titulo" id="civilTitulo">Civil</h3>
         <div class="conteudoAreaAtuacao">
           <p>Nossos profissionais também atuam para pessoas jurídicas, podendo auxiliar nas seguintes áreas:
           </p>
@@ -228,7 +228,7 @@
 
     <section id="consumidor">
       <div class="container areasAtuacaoEmpresarial">
-        <h3 class="titulo">Consumidor</h3>
+        <h3 class="titulo" id="consumidorTitulo">Consumidor</h3>
         <div class="conteudoAreaAtuacao">
           <p class="areasEspecificas">Nossos profissionais também atuam para pessoas jurídicas, podendo auxiliar nas
             seguintes áreas:
@@ -251,7 +251,7 @@
 
     <section id="empresarial">
       <div class="container areasAtuacaoEmpresarial">
-        <h3 class="titulo">Empresarial</h3>
+        <h3 class="titulo" id="empresarialTitulo">Empresarial</h3>
         <div class="conteudoAreaAtuacao">
           <p>Nossos profissionais também atuam para pessoas jurídicas, podendo auxiliar nas seguintes áreas:
           </p>
@@ -291,13 +291,9 @@
       </div>
     </section>
 
-
-
-
-
     <section id="trabalhista">
       <div class="container areasAtuacaoEmpresarial">
-        <h3 class="titulo">Trabalhista</h3>
+        <h3 class="titulo" id="trabalhistaTitulo">Trabalhista</h3>
         <div class="conteudoAreaAtuacao">
           <p>Nesta área, a VN Advocacia atua com excelência em demandas consultivas e contenciosas referentes às
             relações de emprego. Possuímos profissionais que atuam para os dois sujeitos da relação empregado x
