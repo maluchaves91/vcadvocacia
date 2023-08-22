@@ -33,6 +33,16 @@ body {
 /* Fim estutura do site*/
 
 
+/*sessão novidades*/
+.vertical-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Define a altura da tela inteira */
+}
+
+
+
 /*Início navbar*/
 /*Navbar para mudar a cor ao passar o mouse*/
 .dropdown-menu a.dropdown-item:hover {
