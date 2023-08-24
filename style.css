@@ -34,12 +34,26 @@ body {
 
 
 /*sessão novidades*/
-.vertical-center {
+.imageAndTextContainer {
   display: flex;
   align-items: center;
-  justify-content: center;
-  height: 100vh; /* Define a altura da tela inteira */
+  margin-bottom: 20px; /* Ajuste o valor conforme necessário */
 }
+
+.imageHeader {
+  /* Estilos para a imagem */
+  max-width: 100%;
+  height: auto;
+  /* Outros estilos necessários */
+}
+
+.tituloPrincipal {
+  margin-left: 10px;
+  /* Outros estilos necessários */
+}
+
+
+
 
 
 
