@@ -52,7 +52,16 @@ body {
 /*Fim navbar*/
 
 /*Sessão novidades*/
+.imgCarousel {
+  height: 500px;
+  object-fit: cover;
+}
 
+.divNews {
+  margin-top: 18%;
+}
+
+/*FIM Sessão novidades*/
 
 
 /*Home*/
@@ -296,6 +305,18 @@ fieldset {
   .btn_precisaAjuda {
     display: none;
   }
+
+  /*Sessão novidades*/
+  .imgCarousel {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .divNews {
+    margin-top: 300px;
+  }
+
+  /*FIM Sessão novidades*/
 }
 
 /*Para aplicativos com tela entre 441 && 768*/
@@ -307,10 +328,43 @@ fieldset {
   .btn_precisaAjuda {
     display: none;
   }
+
+  /*Sessão novidades*/
+  .imgCarousel {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .divNews {
+    margin-top: 300px;
+  }
+
+  /*FIM Sessão novidades*/
+
 }
 
 /*Para aplicativos com tela inferior entre 769 e 1000*/
 @media (min-width: 768px) and (max-width: 1199px) {
+
+  /*Header*/
+  .tituloPrincipal {
+    z-index: 1000;
+    font-size: 80px;
+    color: black;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
+
+  /*Sessão novidades*/
+  .imgCarousel {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .divNews {
+    margin-top: 300px;
+  }
+
+  /*FIM Sessão novidades*/
 
   .areasAtuacao {
     margin-top: 35%;
@@ -386,6 +440,7 @@ fieldset {
   .btn_precisaAjuda {
     display: none;
   }
+
   /*FIM do rodapé*/
 }
 
@@ -394,4 +449,19 @@ fieldset {
   .btn_precisaAjuda {
     display: none;
   }
+
+  /*Sessão novidades*/
+  .imgCarousel {
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .divNews {
+    margin-top: 300px;
+  }
+
+  /*FIM Sessão novidades*/
+
+  
+ 
 }
