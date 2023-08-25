@@ -34,11 +34,7 @@ body {
 
 
 /*sessão novidades*/
-.imageAndTextContainer {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px; /* Ajuste o valor conforme necessário */
-}
+
 
 .imageHeader {
   /* Estilos para a imagem */
