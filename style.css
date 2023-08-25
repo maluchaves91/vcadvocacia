@@ -451,7 +451,20 @@ body {
   width: 80%;
 }
 .btn_precisaAjuda {
-  display: none;
+  position: fixed;
+  width: 100px;
+  padding: 10px;
+  background-color: #c18824;
+  color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 16px;
+  z-index: 1000;
+  text-decoration: none;
+  line-height: 1.5;
+  bottom:40px;
+  left:40px;
+
 }
 }
 
