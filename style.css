@@ -453,6 +453,7 @@ body {
 .btn_precisaAjuda {
   position: fixed;
   width: 100px;
+  height: 50px; /*adição de uma altura*/
   padding: 10px;
   background-color: #c18824;
   color: #FFF;
@@ -462,10 +463,28 @@ body {
   z-index: 1000;
   text-decoration: none;
   line-height: 1.5;
-  bottom:40px;
+  bottom: 40px;
+  transform: translateX(-50%);
   left:40px;
-
 }
+/* Estilo para telas menores que 441px */
+@media (max-width: 441px) {
+  /* Esconde o botão no navbar */
+  .navbar .btn_precisaAjuda {
+    display: none;
+  }
+
+
+  /*ERRO AQUI, ISSO NÃO ESTÁ ACONTECENDO*/
+  /* Mostra o botão no footer */ 
+  footer .btn_precisaAjuda {
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+
 }
 
 /*Para aplicativos com tela entre 441 && 768*/
