@@ -271,6 +271,22 @@ body {
   text-decoration: none;
   line-height: 1.5;
 }
+
+.btn_help{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:20px;
+  background-color:#c18824;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+  display: none;
+}
 /*FIM do rodapé*/
 
 
@@ -464,25 +480,29 @@ body {
   text-decoration: none;
   line-height: 1.5;
   bottom: 40px;
-  transform: translateX(-50%);
   left:40px;
 }
-/* Estilo para telas menores que 441px */
-@media (max-width: 441px) {
   /* Esconde o botão no navbar */
   .navbar .btn_precisaAjuda {
     display: none;
   }
 
-
-  /*ERRO AQUI, ISSO NÃO ESTÁ ACONTECENDO*/
-  /* Mostra o botão no footer */ 
-  footer .btn_precisaAjuda {
-    bottom: 40px;
-    left: 50%;
-    transform: translateX(-50%);
+  .btn_help{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:20px;
+    background-color:#c18824;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+    display: inline-block;
+    
   }
-}
 
 
 }
