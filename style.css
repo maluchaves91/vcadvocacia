@@ -256,6 +256,22 @@ body {
   z-index:1000;
 }
 
+.btn_help{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  left:40px;
+  background-color:#c18824;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+  display: none;
+}
+
 .btn_precisaAjuda {
   position: fixed;
   width: 200px;
@@ -467,7 +483,26 @@ body {
   transform: translateX(-50%);
   left:40px;
 }
-/* Estilo para telas menores que 441px */
+.btn_precisaAjuda {
+  display: none;
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+.btn_help{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#c18824;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  font-size:30px;
+  box-shadow: 1px 1px 2px #888;
+  z-index:1000;
+  display: inline-block;
+}
+
 }
 
 /*Para aplicativos com tela entre 441 && 768*/
