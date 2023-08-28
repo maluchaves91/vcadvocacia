@@ -148,13 +148,13 @@
         <!--Início do conteúdo sobre consumidor-->
         <div class="container areasAtuacao">
             <div class="conteudoAreaAtuacao">
-                <p class="areasEspecificas">Considerando a vulnerabilidade do consumidor como parte hipossuficiente da
+                <!--Tirei a "areasEspecificas" da linha 152-->
+                <p class="">Considerando a vulnerabilidade do consumidor como parte hipossuficiente da
                     relação de consumo, nossos profissionais atuam em sua defesa de forma administrativa ou
                     judicialmente, em causas individuais ou coletivas.
                     <br><br>
                     Nosso profissionais especialistas podem auxiliar com:
-                </p>
-                </p>
+                </p><!--Tirei uma tag "p" fechada, que estava solta-->
                 <ul class="areasEspecificas">
                     <a href="https://api.whatsapp.com/send?phone=5512997840397&text=Tenho dúvidas sobre Publicidade enganosa ou abusiva"
                         target="_blank">
@@ -188,48 +188,7 @@
         <br><br><br>
 
         <!--Início do Formulário com a Imagem ao lado-->
-        <form class="col-md-6 offset-md-3" action="https://formspree.io/f/mdorovvg" method="POST">
-            <fieldset class="rounded custom-fieldset">
-                <legend>Tire sua dúvida</legend>
-                <br>
-                <div class="col-12">
-                    <div class="input-group">
-                        <div class="input-group-text" style="background-color:#e7c292;">E-mail</div>
-                        <input style="background-color:white ;" name="email" type="text" class="form-control"
-                            placeholder="name@example.com">
-                    </div>
-                </div>
-
-                <br>
-
-                <div class="col-12">
-                    <select name="subject" style="background-color:#e7c292;" class="form-select"
-                        id="inlineFormSelectPref">
-                        <option selected>Previdenciário</option>
-                        <option value="Aposentadoria">Aposentadoria</option>
-                        <option value="Auxílio-acidente">Auxílio-acidente</option>
-                        <option value="Pensão por morte">Pensão por morte</option>
-                        <option value="Benefícios assistenciais (BPC)">Benefícios assistenciais (BPC)s</option>
-                        <option value="Auxílio-doença">Auxílio-doença</option>
-                        <option value="Auxílio-reclusão">Auxílio-reclusão</option>
-                        <option value="Salário-maternidade">Salário-maternidade</option>
-                    </select>
-                </div>
-
-                <br>
-
-                <div class="col-auto">
-                    <textarea style="background-color:#e7c292 ;" class="form-control" name="message" rows="3"
-                        placeholder="mensagem">
-        </textarea>
-                </div>
-
-                <br>
-
-                <!-- your other form fields go here -->
-                <button type="submit" class="sendMail">Enviar</button>
-            </fieldset>
-        </form>
+        
 
         <!--Fim do Formulário com a Imagem ao lado-->
 
@@ -292,6 +251,12 @@
                 </div>
             </div>
         </section>
+
+        <!--Botão ligação percorrendo a página-->
+        <a href="tel:+5513988096261" class="btn_help" style="padding: 10px;">
+            <i class="fa-solid fa-phone-volume"></i>
+        </a>
+        <!--Fim do botão ligação percorrendo a página-->
 
         <!--Botão whatsapp percorrendo a página-->
         <a href="https://wa.me/5513988096261?text=Olá, tudo bem?" class="btn_whats" target="_blank">
