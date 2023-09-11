@@ -54,6 +54,42 @@ body {
   background-color: #f0d6b6;
 }
 
+.about-header p{
+  color: white;
+  padding: 8px;
+}
+
+.header h2 span{
+  color: #f0d6b6;
+}
+
+.header h2{
+  font-size: 35px;
+  color: #222;
+}
+
+.logo{
+  margin-top: 10px;
+}
+
+.wraper-header{
+  padding: 40px 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-ads{
+  width: 60%;
+  height: 100px;
+  background-color: #222;
+  position: relative;
+}
+
+.banner-ads h2{
+  
+}
+
 
 
 
