@@ -31,15 +31,28 @@ body {
   background-color: #000000;
 }
 
-/* Sessão novidades */
-.imgCarousel {
-  height: 400px;
-  object-fit: cover;
+/* Sessão novidades*/
+.center{
+  display: flex;
+  max-width: 1100px;
+  margin:0 auto;
+  padding: 0 2%;
+  flex-wrap: wrap;
 }
 
-.divNews {
-  margin-top: 10%;
+.banner-ads{
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: rgb(9, 41, 80);
+  font-size: 15px;
+  font-style: italic;
 }
+
+
+
+
+/*Fim da sessão novidades*/
 
 /* Home */
 .divLeft {
@@ -101,6 +114,7 @@ body {
 }
 
 .areasEspecificas a {
+  list-style: none;
   text-decoration: none;
   color: black;
   line-height: 1.5;
