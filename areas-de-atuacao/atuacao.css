@@ -1,385 +1,418 @@
-/* Estutura do site */
-body {
-  background-color: white;
-  text-align: center;
-}
+  /* Estutura do site */
+  body {
+    background-color: white;
+    text-align: center;
+  }
 
-.sections {
-  padding-top: 5%;
-  margin-bottom: 3%;
-}
+  .sections {
+    padding-top: 5%;
+    margin-bottom: 3%;
+  }
 
-.titulo{
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #cf9b4b;
-  font-size: 3em;
-  margin-bottom: 1%;
-}
-
-
-/* Navbar */
-.dropdown-menu a.dropdown-item:hover {
-  background-color: #f0d6b6;
-  color: #000;
-}
-
-.logoNavBar {
-  width: 150px;
-}
-
-.navbar-fixed-top {
-  background-color: #000000;
-}
-
-/* ínicio da sessão novidades*/
-.center{
-  display: flex;
-  max-width: 1100px;
-  margin:0 auto;
-  padding: 0 2%;
-  flex-wrap: wrap;
-}
-
-.logo{
-  margin-top: 10px;
-}
-
-.noticias-1{
-  margin: 50px 50px;
-}
-
-.noticias-wraper-1{
-  display: flex;
-  width: 100%;
-}
-
-.noticia-destaque{
-  width: 60%;
-  padding-top: 20%;
-  background-color: #222; /*Deixei esse fundo, para quando a imagem demorar para carregar, o usúario conseguir enxergar que ali entrará algum conteúdo, isso melhora a experiência*/
-  border: 2px solid white;
-  position: relative; 
-}
-
-.noticia-destaque-single{
-  left: 0;
-  top: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  
-}
-
-.noticia-destaque-single h3{
-  padding: 10px;
-  color: rgb(6, 6, 6);  
-}
-
-.outras-noticias-1{
-  display: flex;
-  width: 40%;
-  flex-wrap: wrap; /*Senão tiver mais espaço, o conteúdo cai para a próxima linha. */
-}
-
-.outra-noticia-1-single{
-  width: 50%;
-  padding-top: 30%;
-  background-size: cover;
-  background-position: center;
-  border: 2px solid white;
-  background-color: #222;
-  position: relative;
-}
-
-.outra-noticia-1-single h4{
-  padding: 10px;
-  color: rgb(246, 238, 238);
-  width: 100%;
-  height: 40px;
-  background-color: rgba(0, 0, 0, 0.6);
-  text-align: left;
-}
+  .titulo{
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #cf9b4b;
+    font-size: 3em;
+    margin-bottom: 1%;
+  }
 
 
+  /* Navbar */
+  .dropdown-menu a.dropdown-item:hover {
+    background-color: #f0d6b6;
+    color: #000;
+  }
 
-/*Fim da sessão novidades*/
+  .logoNavBar {
+    width: 150px;
+  }
 
-/* Home */
-.divLeft {
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
+  .navbar-fixed-top {
+    background-color: #000000;
+  }
 
-.imageHeader {
-  object-fit: cover;
-  width: 100%;
-  height: 300px;
-}
+  /* ínicio da sessão novidades*/
+  .center{
+    display: flex;
+    max-width: 1100px;
+    margin:0 auto;
+    padding: 0 2%;
+    flex-wrap: wrap;
+  }
 
-.holder {
-  position: relative;
-}
+  .logo{
+    margin-top: 10px;
+  }
 
-.tituloPrincipal {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, 50%);
-  font-size: 3em;
-  color: black;
-}
+  .noticias-1{
+    margin: 50px 50px;
+  }
 
-/* Áreas de atuação */
-#area {
-  margin-top: 8%;
-}
+  .noticias-wraper-1{
+    display: flex;
+    width: 100%;
+  }
 
-.content-icon {
-  color: #cf9b4b;
-  margin-right: 2%;
-}
+  .noticia-destaque{
+    width: 60%;
+    padding-top: 20%;
+    background-color: #222; /*Deixei esse fundo, para quando a imagem demorar para carregar, o usúario conseguir enxergar que ali entrará algum conteúdo, isso melhora a experiência*/
+    border: 2px solid white;
+    position: relative; 
+  }
 
-.ajustarLateral {
-  margin-left: 10%;
-}
+  .noticia-destaque-single{
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    
+  }
 
-.iconesEmpresarial a {
-  text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
-  color: black;
-  font-size: 1.5em;
-}
+  .noticia-destaque-single h3{
+    padding: 10px;
+    color: rgb(6, 6, 6);  
+  }
 
-.lineAreaAtuacao {
-  margin: 5% 0;
-  text-align: justify;
-}
+  .outras-noticias-1{
+    display: flex;
+    width: 40%;
+    flex-wrap: wrap; /*Senão tiver mais espaço, o conteúdo cai para a próxima linha. */
+  }
 
-/* Texto */
-.blogText {
-  text-align: justify;
-  line-height: 1.7;
-}
+  .outra-noticia-1-single{
+    width: 50%;
+    padding-top: 30%;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid white;
+    background-color: #222;
+    position: relative;
+  }
 
-.areasEspecificas a {
-  list-style: none;
-  text-decoration: none;
-  color: black;
-  line-height: 1.5;
-}
+  .outra-noticia-1-single h4{
+    padding: 10px;
+    color: rgb(246, 238, 238);
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: left;
+  }
 
 
-.conteudoAreaAtuacao {
-  margin-top: 2%;
-  font-size: 120%;
-  text-align: justify;
-}
 
-/* Edição do Forms */
-fieldset {
-  border: 1px solid #000000;
-  padding: 10px;
-  background-color: #fff8ee;
-}
+  /*Fim da sessão novidades*/
 
-.custom-fieldset {
-  width: 90%;
-  margin: 0 auto;
-}
-
-.sendMail {
-  background-color: rgba(60, 49, 49);
-  color: #f0d6b6;
-  border-radius: 10px;
-  padding: 1% 2%;
-}
-
-.sendMail:hover {
-  background-color: #dcae6f;
-  color: black;
-}
-
-/* Rodapé */
-.rodape {
-  padding: 3% 0;
-  line-height: 150%;
-  background-color: black;
-}
-
-.informationFooter {
-  font-size: 1.5em;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
-}
-
-.telefones,
-.mail {
-  color: white;
-  text-decoration: none;
-  font-size: 1.2em;
-}
-
-.telefones:hover,
-.mail:hover {
-  color: #c18824;
-  text-decoration: none;
-}
-
-.logos1,
-.logos2,
-.logos3,
-.logos4 {
-  font-size: 1.5em;
-}
-
-.logos1:hover,
-.logos2:hover,
-.logos3:hover,
-.logos4:hover {
-  font-size: 1.2em;
-}
-
-.btn_whats{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index:1000;
-}
-
-.btn_help{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  left:40px;
-  background-color:#c18824;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index:1000;
-  display: none;
-}
-
-.btn_precisaAjuda {
-  position: fixed;
-  width: 200px;
-  padding: 10px;
-  top: 20px;
-  right: 40px;
-  background-color: #c18824;
-  color: #FFF;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 16px;
-  z-index: 1000;
-  text-decoration: none;
-  line-height: 1.5;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
+  /* Home */
   .divLeft {
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
-  
+
   .imageHeader {
-    height: 200px;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
   }
-  
+
+  .holder {
+    position: relative;
+  }
+
   .tituloPrincipal {
-    font-size: 2.5em;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 3em;
+    color: black;
   }
-  
+
+  /* Áreas de atuação */
+  #area {
+    margin-top: 8%;
+  }
+
+  .content-icon {
+    color: #cf9b4b;
+    margin-right: 2%;
+  }
+
+  .ajustarLateral {
+    margin-left: 10%;
+  }
+
   .iconesEmpresarial a {
-    font-size: 1.2em;
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: black;
+    font-size: 1.5em;
   }
-  
-  .areasAtuacao {
-    margin-top: 10%;
+
+  .lineAreaAtuacao {
+    margin: 5% 0;
+    text-align: justify;
   }
-  
+
+  /* Texto */
+  .blogText {
+    text-align: justify;
+    line-height: 1.7;
+  }
+
+  .areasEspecificas a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    line-height: 1.5;
+  }
+
+
   .conteudoAreaAtuacao {
-    margin-top: 1%;
-    font-size: 110%;
+    margin-top: 2%;
+    font-size: 120%;
+    text-align: justify;
   }
-  
+
+  /* Edição do Forms */
+  fieldset {
+    border: 1px solid #000000;
+    padding: 10px;
+    background-color: #fff8ee;
+  }
+
+  .custom-fieldset {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .sendMail {
+    background-color: rgba(60, 49, 49);
+    color: #f0d6b6;
+    border-radius: 10px;
+    padding: 1% 2%;
+  }
+
+  .sendMail:hover {
+    background-color: #dcae6f;
+    color: black;
+  }
+
+  /* Rodapé */
   .rodape {
-    line-height: 200%;
+    padding: 3% 0;
+    line-height: 150%;
+    background-color: black;
   }
-  
+
   .informationFooter {
-    font-size: 1.2em;
+    font-size: 1.5em;
+    color: #c18824;
+    font-family: 'Ysabeau Office', sans-serif;
   }
-  
+
   .telefones,
   .mail {
-    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
   }
-  
+
+  .telefones:hover,
+  .mail:hover {
+    color: #c18824;
+    text-decoration: none;
+  }
+
   .logos1,
   .logos2,
   .logos3,
   .logos4 {
+    font-size: 1.5em;
+  }
+
+  .logos1:hover,
+  .logos2:hover,
+  .logos3:hover,
+  .logos4:hover {
     font-size: 1.2em;
   }
-  
-  
-  .btn_precisaAjuda {
-    width: 100px;
-    height: 50px; /*adição de uma altura*/
-    bottom: 40px;
-    transform: translateX(-50%);
-    left:40px;
-    display: none;
+
+  .btn_whats{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
   }
 
   .btn_help{
-    display: inline-block;
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    left:40px;
+    background-color:#c18824;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index:1000;
+    display: none;
   }
 
-    /* ínicio da sessão novidades-mobile */
-  .noticias-wraper-1 {
-    flex-direction: column;
-  }
-
-  .noticia-destaque {
-    width: 100%;
-  }
-
-  .noticia-destaque-single {
-    width: 100%;
-  }
-
-  .outras-noticias-1 {
-    width: 100%;
-  }
-
-  /* Centraliza .outra-noticia-1-single em telas menores */
-  .outra-noticia-1-single {
-    width: 100%;
+  .btn_precisaAjuda {
+    position: fixed;
+    width: 200px;
+    padding: 10px;
+    top: 20px;
+    right: 40px;
+    background-color: #c18824;
+    color: #FFF;
+    border-radius: 30px;
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 16px;
+    z-index: 1000;
+    text-decoration: none;
+    line-height: 1.5;
   }
 
-  /* Fim da sessão novidades-mobile */
-  
-  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .divLeft {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .imageHeader {
+      height: 200px;
+    }
+    
+    .tituloPrincipal {
+      font-size: 2.5em;
+    }
+    
+    .iconesEmpresarial a {
+      font-size: 1.2em;
+    }
+    
+    .areasAtuacao {
+      margin-top: 10%;
+    }
+    
+    .conteudoAreaAtuacao {
+      margin-top: 1%;
+      font-size: 110%;
+    }
+    
+    .rodape {
+      line-height: 200%;
+    }
+    
+    .informationFooter {
+      font-size: 1.2em;
+    }
+    
+    .telefones,
+    .mail {
+      font-size: 1em;
+    }
+    
+    .logos1,
+    .logos2,
+    .logos3,
+    .logos4 {
+      font-size: 1.2em;
+    }
+    
+    
+    .btn_precisaAjuda {
+      width: 100px;
+      height: 50px; /*adição de uma altura*/
+      bottom: 40px;
+      transform: translateX(-50%);
+      left:40px;
+      display: none;
+    }
+
+    .btn_help{
+      display: inline-block;
+    }
+
+    /*familia e sucessoes*/
+    .tituloPrincipal.familia {
+      font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+      line-height: 1.2; /* Ajuste o espaçamento entre as linhas conforme necessário */
+      text-align: center; /* Centralize o texto */
+    }
+
+
+      /* ínicio da sessão novidades-mobile */
+    .noticias-wraper-1 {
+      flex-direction: column;
+    }
+
+    .noticia-destaque {
+      width: 100%;
+    }
+
+    .noticia-destaque-single {
+      width: 100%;
+    }
+
+    .outras-noticias-1 {
+      width: 100%;
+    }
+
+    /* Centraliza .outra-noticia-1-single em telas menores */
+    .outra-noticia-1-single {
+      width: 100%;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Fim da sessão novidades-mobile */
+    
+    
+  }
+
+/* Dentro da media query para telas menores (max-width: 768px) */
+@media (max-width: 768px) {
+  /* Outras regras de estilo já presentes... */
+
+  /* Estilo para o título "Famílias e Sucessões" */
+  .tituloPrincipal.familia {
+    font-size: 30px; /* Ajuste o tamanho da fonte conforme necessário */
+    line-height: 1.2; /* Ajuste o espaçamento entre as linhas conforme necessário */
+    text-align: center; /* Centralize o texto */
+  }
 }
+
+/* Media Query para resolução 820x1180 */
+@media (min-width: 820px) and (max-width: 1180px) {
+  /* Estilo para o título "Famílias e Sucessões" */
+  .tituloPrincipal.familia {
+    font-size: 40px; /* Ajuste o tamanho da fonte conforme necessário */
+    line-height: 1.3; /* Ajuste o espaçamento entre as linhas conforme necessário */
+    text-align: center; /* Centralize o texto */
+  }
+}
+
+
+
