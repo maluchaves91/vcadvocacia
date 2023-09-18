@@ -31,7 +31,7 @@ body {
   background-color: #000000;
 }
 
-/* Sessão novidades*/
+/* ínicio da sessão novidades*/
 .center{
   display: flex;
   max-width: 1100px;
@@ -40,76 +40,12 @@ body {
   flex-wrap: wrap;
 }
 
-.banner-ads{
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  color: rgb(9, 41, 80);
-  font-size: 15px;
-  font-style: italic;
-}
-
-.about-header{
-  width: 100%;
-  background-color: #f0d6b6;
-}
-
-.about-header p{
-  color: white;
-  padding: 8px;
-}
-
-.header h2 span{
-  color: #f0d6b6;
-}
-
-.header h2{
-  font-size: 35px;
-  color: #222;
-}
-
 .logo{
   margin-top: 10px;
 }
 
-.wraper-header{
-  padding: 40px 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.banner-ads{
-  width: 60%;
-  height: 100px;
-  background-color: #222;
-  position: relative;
-}
-
-.banner-ads h2{
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  color: rgb(239, 235, 235);
-  font-size: 15px;
-  font-style: italic;
-}
-
-.menu-main{
-  width: 100%;
-  background-color: #f0d6b6;
-  padding: 8px;
-}
-
-.menu-main a{
-  display: inline-block;
-  margin: 0 10px;
-  color: #fff;
-  text-decoration: none;
-}
-
-.menu-main a:hover{
-  text-decoration: underline;
+.noticias-1{
+  margin: 50px 50px;
 }
 
 .noticias-wraper-1{
@@ -120,9 +56,9 @@ body {
 .noticia-destaque{
   width: 60%;
   padding-top: 20%;
-  background-color: #222;
+  background-color: #222; /*Deixei esse fundo, para quando a imagem demorar para carregar, o usúario conseguir enxergar que ali entrará algum conteúdo, isso melhora a experiência*/
   border: 2px solid white;
-  position: relative;
+  position: relative; 
 }
 
 .noticia-destaque-single{
@@ -133,17 +69,19 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
+  display: flex;
+  
 }
 
 .noticia-destaque-single h3{
   padding: 10px;
-  color: rgb(6, 6, 6);
+  color: rgb(6, 6, 6);  
 }
 
 .outras-noticias-1{
   display: flex;
   width: 40%;
-  flex-wrap: wrap;
+  flex-wrap: wrap; /*Senão tiver mais espaço, o conteúdo cai para a próxima linha. */
 }
 
 .outra-noticia-1-single{
@@ -156,12 +94,13 @@ body {
   position: relative;
 }
 
-.outra-noticia-1-single h3{
+.outra-noticia-1-single h4{
   padding: 10px;
   color: rgb(246, 238, 238);
   width: 100%;
   height: 40px;
   background-color: rgba(0, 0, 0, 0.6);
+  text-align: left;
 }
 
 
@@ -413,4 +352,34 @@ fieldset {
   .btn_help{
     display: inline-block;
   }
+
+    /* ínicio da sessão novidades-mobile */
+  .noticias-wraper-1 {
+    flex-direction: column;
+  }
+
+  .noticia-destaque {
+    width: 100%;
+  }
+
+  .noticia-destaque-single {
+    width: 100%;
+  }
+
+  .outras-noticias-1 {
+    width: 100%;
+  }
+
+  /* Centraliza .outra-noticia-1-single em telas menores */
+  .outra-noticia-1-single {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Fim da sessão novidades-mobile */
+  
+  
 }
