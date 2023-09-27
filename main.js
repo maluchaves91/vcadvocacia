@@ -77,4 +77,44 @@ function goToSection(sectionId) {
     });
   });
 
+
+ 
+  // Função para redirecionar para a página "novidades1.html"
+  function redirecionarParaNovidades1() {
+    window.open('novidades1.html', '_blank');
+  }
+
+  // Adicione um evento de clique para cada div de notícia
+  document.getElementById('noticia1').addEventListener('click', redirecionarParaNovidades1);
+  // Repita isso para cada div de notícia conforme necessário
+
+  // Função para redirecionar para a página "novidades1.html"
+  function redirecionarParaNovidades1() {
+    window.open('novidades2.html', '_blank');
+  }
+
+  // Adicione um evento de clique para cada div de notícia
+  document.getElementById('noticia2').addEventListener('click', redirecionarParaNovidades1);
+  // Repita isso para cada div de notícia conforme necessário
+
+  // Função para redirecionar para a página "novidades1.html"
+  function redirecionarParaNovidades1() {
+    window.open('novidades3.html', '_blank');
+  }
+
+  // Adicione um evento de clique para cada div de notícia
+  document.getElementById('noticia3').addEventListener('click', redirecionarParaNovidades1);
+  // Repita isso para cada div de notícia conforme necessário
+
+  // Função para redirecionar para a página "novidades1.html"
+  function redirecionarParaNovidades1() {
+    window.open('novidades4.html', '_blank');
+  }
+
+  // Adicione um evento de clique para cada div de notícia
+  document.getElementById('noticia4').addEventListener('click', redirecionarParaNovidades1);
+  // Repita isso para cada div de notícia conforme necessário
+
+
+
   
