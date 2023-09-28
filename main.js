@@ -115,6 +115,23 @@ function goToSection(sectionId) {
   document.getElementById('noticia4').addEventListener('click', redirecionarParaNovidades1);
   // Repita isso para cada div de notícia conforme necessário
 
-
-
+  //Troca de imagem automatica
+  const imagens = [
+    'areas-de-atuacao/imagens/novidades1.jpg',
+    'areas-de-atuacao/imagens/novIgrejas.jpg',
+    'areas-de-atuacao/imagens/trabalhista.png',
+    'areas-de-atuacao/imagens/previdenciario.png'
+  ];
   
+  let indiceAtual = 0;
+  
+  function alterarImagem() {
+    const imagemDestaque = document.getElementById('imagemDestaque');
+    imagemDestaque.src = imagens[indiceAtual];
+  }
+  
+  function mudarImagem(direcao) {
+    // Avança ou retrocede no índice, considerando o limite das imagens
+    indiceAtual = (indiceAtual + direcao + imagens.length) % imagens.length;
+    alterarImagem();
+  }
