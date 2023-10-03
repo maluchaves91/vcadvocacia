@@ -44,66 +44,23 @@
     margin-top: 10px;
   }
 
-  .noticias-1{
-    margin: 50px 50px;
+  .image-link {
+    position: relative; /* Torna a posição relativa para permitir o posicionamento absoluto do texto */
+    display: inline-block; /* Para garantir que a âncora se ajuste à largura da imagem */
   }
-
-  .noticias-wraper-1{
-    display: flex;
-    width: 100%;
+  
+  .chamadaNoticia {
+    position: absolute; /* Torna a posição absoluta */
+    top: 90%; /* Define a posição verticalmente no meio */
+    left: 0; /* Alinha à esquerda */
+    transform: translate(0, -50%); /* Move para cima metade da altura do texto */
+    background: rgba(0, 0, 0, 0.5); /* Adiciona um fundo transparente para o texto */
+    color: white; /* Cor do texto */
+    padding: 10px; /* Adiciona algum preenchimento ao redor do texto */
+    width: 100%; /* Faz o texto ocupar toda a largura da imagem */
+    box-sizing: border-box; /* Inclui o preenchimento no tamanho total do elemento */
   }
-
-  .noticia-destaque{
-    width: 60%;
-    padding-top: 20%;
-    background-color: #222; /*Deixei esse fundo, para quando a imagem demorar para carregar, o usúario conseguir enxergar que ali entrará algum conteúdo, isso melhora a experiência*/
-    border: 2px solid white;
-    position: relative; 
-  }
-
-  .noticia-destaque-single{
-    left: 0;
-    top: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    
-  }
-
-  .noticia-destaque-single h3{
-    padding: 10px;
-    color: rgb(6, 6, 6);  
-  }
-
-  .outras-noticias-1{
-    display: flex;
-    width: 40%;
-    flex-wrap: wrap; /*Senão tiver mais espaço, o conteúdo cai para a próxima linha. */
-  }
-
-  .outra-noticia-1-single {
-  width: 50%;
-  padding-top: 30%;
-  background-size: cover; Garante que a imagem de fundo se ajuste adequadamente
-  background-position: center;
-  border: 2px solid white;
-  background-color: #222;
-  position: relative;
-}
-
-  .outra-noticia-1-single h4{
-    padding: 10px;
-    color: rgb(246, 238, 238);
-    width: 100%;
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-align: left;
-  }
-
-
+  
 
   /*Fim da sessão novidades*/
 
