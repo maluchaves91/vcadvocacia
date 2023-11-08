@@ -49,10 +49,6 @@ body {
 }
 
 
-
-
-
-
 /*Início navbar*/
 /*Navbar para mudar a cor ao passar o mouse*/
 .dropdown-menu a.dropdown-item:hover {
@@ -62,6 +58,10 @@ body {
 
 .logoNavBar{
   width: 200px;
+}
+
+.navbarprincipal a{ 
+  color:black;
 }
 /*Fim navbar*/
 

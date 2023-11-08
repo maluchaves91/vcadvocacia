@@ -1,0 +1,87 @@
+.fundo{
+    background-color:black;
+    color:#c18824;
+}
+
+#logo{
+    margin-top: 3%;
+     float: left;
+     width: 50%;
+}
+
+.titulo {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #cf9b4b ;
+    font-size: 2em;
+    margin-bottom: 12%;
+    text-align: center;
+  }
+
+main{
+    display: flex;
+    align-items: center;
+}
+
+
+.icones{
+    font-size: 10vh;
+    color: #c18824;
+  font-family: 'Ysabeau Office', sans-serif;
+  text-decoration: none;
+  margin: auto;
+  word-spacing: 5vh;
+}
+
+footer{
+    text-align: center;
+    color: #c18824;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+}
+
+/*Início áreas de atuação*/
+/*cores dos ícones da área de atuação*/
+.content-icon {
+    color: #c18824 ;
+    margin-right: 2%;
+  }
+  
+  .areaAtuacao a{
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+    color:#cf9b4b;
+    font-size: x-large;
+  }
+  
+  .lineAreaAtuacao{
+    margin-top: 10%;
+    margin-bottom: 10%;
+   text-align: center;
+  }
+  /*Fim áreas de atuação*/
+
+@media (max-width: 768px) and (orientation: portrait) {
+    #logo{
+        margin-top: 10%;
+         float:none;
+         width: 50%;
+    }
+    
+    main{
+        display: block;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .icones{
+        font-size: 250%;
+        color: #c18824;
+      font-family: 'Ysabeau Office', sans-serif;
+      text-decoration: none;
+      margin: auto;
+     display: block;
+    }
+
+
+}
