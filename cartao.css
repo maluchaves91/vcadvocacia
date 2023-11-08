@@ -19,7 +19,7 @@ h3 {
   font-family: 'Ysabeau Office', sans-serif;
   color: #cf9b4b;
   font-size: 2em;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   margin-top: 5%;
   visibility: visible;
   margin-left: 30%;
@@ -222,7 +222,7 @@ button.btn.btn-secondary {
     color: black;
     font-size: x-large;
     padding: 3%;
-    margin:3%;
+    margin:2%;
     border-style: solid;
     border-color:#c18824;
     border-radius:10px;
