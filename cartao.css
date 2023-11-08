@@ -21,8 +21,10 @@ h3 {
   font-size: 2em;
   margin-bottom: 5%;
   margin-top: 5%;
-  text-align: center;
   visibility: visible;
+  margin-left: 30%;
+  margin-right: 20%;
+  text-align: center;
 }
 
 .conjunto {
@@ -57,23 +59,25 @@ footer {
   color: #c18824;
 }
 
-.areaAtuacao a {
+.areaAtuacao{
+  display: inline-block;
+  width: 50vh;
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
   color: #cf9b4b;
   font-size: x-large;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
+  padding: 2%;
 }
 
-.lineAreaAtuacao {
-  padding: 3%;
+.areaAtuacao a {
+  text-decoration: none;
+  color: #cf9b4b;
+}
 
-  margin-top: 10%;
-  margin-bottom: 10%;
-  text-align: center;
+.img-titulo {
+  width: 70%; /* Ajuste a margem conforme desejado */
+  display: block;
+  margin-left: 10%;
 }
 
 /* Botão voltar */
@@ -111,6 +115,7 @@ button.btn.btn-secondary {
     color: #c18824;
     font-family: 'Ysabeau Office', sans-serif;
     margin: auto;
+    text-align: center;
   }
 
 
@@ -141,6 +146,8 @@ button.btn.btn-secondary {
     font-size: 2em;
     margin-bottom: 12%;
     visibility: visible;
+    margin-left: 0;
+    margin-right: 0;
 }
   
   
@@ -160,7 +167,6 @@ button.btn.btn-secondary {
   }
 
   .logoDisplay h3 {
-
     margin: 0;
     padding: 0;
     margin-top: 25%;
@@ -204,16 +210,24 @@ button.btn.btn-secondary {
   .areaAtuacao a {
     text-decoration: none;
     font-family: 'Ysabeau Office', sans-serif;
-    color: #cf9b4b;
+    color: black;
     font-size: x-large;
   }
 
-
-  .lineAreaAtuacao {
-    margin-top: 10%;
-    margin-bottom: 10%;
-    text-align: center;
+  .areaAtuacao{
+    width: 80%;
+    background-color:#cf9b4b;
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: black;
+    font-size: x-large;
+    padding: 3%;
+    margin:3%;
+    border-style: solid;
+    border-color:#c18824;
+    border-radius:10px;
   }
+
 
   /* Botão voltar */
 
@@ -236,6 +250,10 @@ button.btn.btn-secondary {
   #link-btn-atuacao {
     text-decoration: none;
     color: #110808;
+  }
+
+  .content-icon{
+    color:black;
   }
 
 }
