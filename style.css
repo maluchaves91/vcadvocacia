@@ -8,13 +8,13 @@ body {
 /*Padding entre as seções*/
 .sections {
   padding-top: 10%;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
 /*titulos do site*/
 .titulo {
   font-family: 'Ysabeau Office', sans-serif;
-  color: #cf9b4b ;
+  color: #cf9b4b;
   font-size: 3.5em;
   margin-bottom: 1%;
 }
@@ -30,6 +30,7 @@ body {
   border-top-color: #090705;
   margin-bottom: 1%;
 }
+
 /* Fim estutura do site*/
 
 
@@ -52,13 +53,14 @@ body {
 /*Início navbar*/
 /*Navbar para mudar a cor ao passar o mouse*/
 .dropdown-menu a.dropdown-item:hover {
-  background-color: #f0d6b6 ;
+  background-color: #f0d6b6;
   color: #000;
 }
 
-.logoNavBar{
+.logoNavBar {
   width: 200px;
 }
+
 /*Fim navbar*/
 
 
@@ -103,46 +105,49 @@ body {
     opacity: 1;
   }
 }
+
 /*Fim do Home*/
 
 
 /*Início do quem somos*/
-.quemSomos{
+.quemSomos {
   display: flex;
   justify-content: center;
 }
 
-.quemSomos p{
-  width: 60%; 
-  text-align: justify; 
+.quemSomos p {
+  width: 60%;
+  text-align: justify;
   margin-top: 5%;
   padding: auto;
   line-height: 2;
   font-family: 'Ysabeau Office', sans-serif;
   font-size: x-large;
 }
+
 /*Fim do quem somos*/
 
 
 /*Início áreas de atuação*/
 /*cores dos ícones da área de atuação*/
 .content-icon {
-  color: #cf9b4b ;
+  color: #cf9b4b;
   margin-right: 2%;
 }
 
-.areaAtuacao a{
+.areaAtuacao a {
   text-decoration: none;
   font-family: 'Ysabeau Office', sans-serif;
-  color:black;
+  color: black;
   font-size: x-large;
 }
 
-.lineAreaAtuacao{
+.lineAreaAtuacao {
   margin-top: 10%;
   margin-bottom: 10%;
- text-align: center;
+  text-align: center;
 }
+
 /*Fim áreas de atuação*/
 
 
@@ -182,13 +187,14 @@ body {
 .nomesAdvogados {
   margin-top: 10%;
 }
+
 /*Fim do Nossa Equipe + Advogados Parceiros*/
 
 
 /*Início do rodapé*/
 /*Para deixar fixado em baixo o rodapé*/
 .rodape {
-  bottom:0;
+  bottom: 0;
   padding-top: 3%;
   padding-bottom: 4%;
   line-height: 250%;
@@ -238,34 +244,34 @@ body {
   font-size: 180%;
 }
 
-.btn_whats{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
-  background-color:#25d366;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
+.btn_whats {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
   box-shadow: 1px 1px 2px #888;
-  z-index:1000;
+  z-index: 1000;
 }
 
-.btn_help{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  left:40px;
-  background-color:#c18824;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
+.btn_help {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  left: 40px;
+  background-color: #c18824;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
   box-shadow: 1px 1px 2px #888;
-  z-index:1000;
+  z-index: 1000;
   display: none;
 }
 
@@ -284,412 +290,423 @@ body {
   text-decoration: none;
   line-height: 1.5;
 }
+
 /*FIM do rodapé*/
 
 
 /*Para aplicativos com tela inferior 768*/
 @media (max-width: 441px) {
   /*Estutura do site*/
-/*cor da página*/
+  /*cor da página*/
 
-/*Padding entre as seções*/
-.sections {
-  padding-top: 5%;
-  margin-bottom:5%;
-}
+  /*Padding entre as seções*/
+  .sections {
+    padding-top: 5%;
+    margin-bottom: 5%;
+  }
 
-/*titulos do site*/
-.titulo {
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #cf9b4b ;
-  font-size: 2em;
-  margin-bottom: 1%;
-}
+  /*titulos do site*/
+  .titulo {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #cf9b4b;
+    font-size: 2em;
+    margin-bottom: 1%;
+  }
 
-/*Início navbar*/
-.logoNavBar{
-  width: 100px;
-}
-/*Fim navbar*/
+  /*Início navbar*/
+  .logoNavBar {
+    width: 100px;
+  }
 
-
-/*Home*/
-/*Id que contém a imagem*/
-#imagemHeader {
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  opacity: 0.5;
-
-}
-
-/*Div que contém a largura completa*/
-.divLeft {
-  width: 100%;
-  display: flex;
-  z-index: 0;
-}
-
-/*logo subindo*/
-.logoAnimado {
-  opacity: 1;
-  width: 100%;
-  height: 200px;
-  padding-top: 15%;
-  animation: slide-up 1.5s ease-out;
-  z-index: 1000;
-}
-
-.tituloPrincipalMobile{
-  width: 60%;
-}
-/*Fim do Home*/
+  /*Fim navbar*/
 
 
-/*Início do quem somos*/
-.quemSomos p{
-  width: 70%; 
-  text-align: justify; 
-  padding: auto;
-  line-height: 1.5;
-  font-family: 'Ysabeau Office', sans-serif;
-  font-size:medium;
-}
-/*Fim do quem somos*/
+  /*Home*/
+  /*Id que contém a imagem*/
+  #imagemHeader {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    opacity: 0.5;
+
+  }
+
+  /*Div que contém a largura completa*/
+  .divLeft {
+    width: 100%;
+    display: flex;
+    z-index: 0;
+  }
+
+  /*logo subindo*/
+  .logoAnimado {
+    opacity: 1;
+    width: 100%;
+    height: 200px;
+    padding-top: 15%;
+    animation: slide-up 1.5s ease-out;
+    z-index: 1000;
+  }
+
+  .tituloPrincipalMobile {
+    width: 60%;
+  }
+
+  /*Fim do Home*/
 
 
-/*Início áreas de atuação*/
-/*cores dos ícones da área de atuação*/
-.content-icon {
-  color: #cf9b4b ;
-  margin-right: 2%;
-  font-size: medium;
-  text-align: justify;
-}
+  /*Início do quem somos*/
+  .quemSomos p {
+    width: 70%;
+    text-align: justify;
+    padding: auto;
+    line-height: 1.5;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: medium;
+  }
 
-.areaAtuacao a{
-  text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
-  color:black;
-  font-size: medium;
-}
-
-.lineAreaAtuacao{
-  margin-top: 10%;
-  margin-bottom: 10%;
-  text-align: left;
-  margin-left:30%;
-}
-
-.areaAtuacao{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-/*Fim áreas de atuação*/
+  /*Fim do quem somos*/
 
 
-/*Início do Nossa Equipe + Advogados Parceiros*/
-/*para conter a imagem dos advogados dentro da div*/
-.holder2 {
-  overflow: hidden;
-  width: 230px;
-  height: 230px;
-  justify-content: center;
-  align-items: center;
-}
+  /*Início áreas de atuação*/
+  /*cores dos ícones da área de atuação*/
+  .content-icon {
+    color: #cf9b4b;
+    margin-right: 2%;
+    font-size: medium;
+    text-align: justify;
+  }
 
-/*Para alinhar o accordion com a imagem dos advogados*/
-.advogadosCard {
-  width:70%;
-  overflow: hidden;
-}
+  .areaAtuacao a {
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: black;
+    font-size: medium;
+  }
 
-/*margim para não deixar o título colado com o nome dos advogados*/
-.nomesAdvogados {
-  font-size: large;
-  margin-top: 10%;
-}
+  .lineAreaAtuacao {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+    margin-left: 30%;
+  }
 
-.accordion-body{
-  font-size: small;
-}
+  .areaAtuacao {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 
-/*Fim do Nossa Equipe + Advogados Parceiros*/
+  /*Fim áreas de atuação*/
 
 
-/*Início do rodapé*/
-/*Estilo do rodapé*/
-.informationFooter {
-  font-size: 125%;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
-}
+  /*Início do Nossa Equipe + Advogados Parceiros*/
+  /*para conter a imagem dos advogados dentro da div*/
+  .holder2 {
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.telefones,
-.mail {
-  color: white;
-  text-decoration: none;
-  font-size: 100%;
-}
+  /*Para alinhar o accordion com a imagem dos advogados*/
+  .advogadosCard {
+    width: 70%;
+    overflow: hidden;
+  }
 
-.telefones:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 130%;
+  /*margim para não deixar o título colado com o nome dos advogados*/
+  .nomesAdvogados {
+    font-size: large;
+    margin-top: 10%;
+  }
 
-}
+  .accordion-body {
+    font-size: small;
+  }
 
-.mail:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 130%;
-}
+  /*Fim do Nossa Equipe + Advogados Parceiros*/
 
-.logos1,
-.logos2,
-.logos3,
-.logos4 {
-  font-size:170%;
-}
 
-.logos1:hover,
-.logos2:hover,
-.logos3:hover,
-.logos4:hover {
-  font-size: 120%;
-}
+  /*Início do rodapé*/
+  /*Estilo do rodapé*/
+  .informationFooter {
+    font-size: 125%;
+    color: #c18824;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
 
-#maps{
-  width: 80%;
-}
-.btn_precisaAjuda {
-  position: fixed;
-  width: 100px;
-  height: 50px; /*adição de uma altura*/
-  padding: 10px;
-  background-color: #c18824;
-  color: #FFF;
-  border-radius: 30px;
-  text-align: center;
-  font-size: 16px;
-  z-index: 1000;
-  text-decoration: none;
-  line-height: 1.5;
-  bottom: 40px;
-  transform: translateX(-50%);
-  left:40px;
-}
+  .telefones,
+  .mail {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+  }
 
-.btn_precisaAjuda {
-  display: none;
-}
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
-.btn_help{
-  position:fixed;
-  width:60px;
-  height:60px;
-  bottom:40px;
-  right:40px;
-  background-color:#c18824;
-  color:#FFF;
-  border-radius:50px;
-  text-align:center;
-  font-size:30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index:1000;
-  display: inline-block;
-}
+  .telefones:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 130%;
+
+  }
+
+  .mail:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 130%;
+  }
+
+  .logos1,
+  .logos2,
+  .logos3,
+  .logos4 {
+    font-size: 170%;
+  }
+
+  .logos1:hover,
+  .logos2:hover,
+  .logos3:hover,
+  .logos4:hover {
+    font-size: 120%;
+  }
+
+  #maps {
+    width: 80%;
+  }
+
+  .btn_precisaAjuda {
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    /*adição de uma altura*/
+    padding: 10px;
+    background-color: #c18824;
+    color: #FFF;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 16px;
+    z-index: 1000;
+    text-decoration: none;
+    line-height: 1.5;
+    bottom: 40px;
+    transform: translateX(-50%);
+    left: 40px;
+  }
+
+  .btn_precisaAjuda {
+    display: none;
+  }
+
+  .btn_help {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #c18824;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+    display: inline-block;
+  }
 
 }
 
 /*Para aplicativos com tela entre 441 && 768*/
 @media (min-width: 441px) and (max-width: 769px) {
   /*Estutura do site*/
-/*cor da página*/
+  /*cor da página*/
 
-/*Padding entre as seções*/
-.sections {
-  padding-top: 2%;
-  margin-bottom:2%;
-}
+  /*Padding entre as seções*/
+  .sections {
+    padding-top: 2%;
+    margin-bottom: 2%;
+  }
 
-/*titulos do site*/
-.titulo {
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #cf9b4b ;
-  font-size: 2em;
-  margin-bottom: 1%;
-}
+  /*titulos do site*/
+  .titulo {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #cf9b4b;
+    font-size: 2em;
+    margin-bottom: 1%;
+  }
 
-/*Início navbar*/
-.logoNavBar{
-  width: 100px;
-}
-/*Fim navbar*/
+  /*Início navbar*/
+  .logoNavBar {
+    width: 100px;
+  }
 
-
-/*Home*/
-/*Id que contém a imagem*/
-#imagemHeader {
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  opacity: 0.5;
-
-}
-
-/*Div que contém a largura completa*/
-.divLeft {
-  width: 100%;
-  display: flex;
-  z-index: 0;
-}
-
-/*logo subindo*/
-.logoAnimado {
-  opacity: 1;
-  width: 100%;
-  height: 150px;
-  padding-top: 8%;
-  animation: slide-up 1.5s ease-out;
-  z-index: 1000;
-}
-
-.tituloPrincipalMobile{
-  width: 60%;
-}
-/*Fim do Home*/
+  /*Fim navbar*/
 
 
-/*Início do quem somos*/
-.quemSomos p{
-  width: 70%; 
-  text-align: justify; 
-  padding: auto;
-  line-height: 1.5;
-  font-family: 'Ysabeau Office', sans-serif;
-  font-size:medium;
-}
-/*Fim do quem somos*/
+  /*Home*/
+  /*Id que contém a imagem*/
+  #imagemHeader {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.5;
 
-/*para deixar quem somos embaixo da imagem*/
-#quemSomos{
-  margin-top: 30%;
-}
+  }
 
-/*Início áreas de atuação*/
-/*cores dos ícones da área de atuação*/
-.content-icon {
-  color: #cf9b4b ;
-  margin-right: 2%;
-  font-size: medium;
-  text-align: justify;
-}
+  /*Div que contém a largura completa*/
+  .divLeft {
+    width: 100%;
+    display: flex;
+    z-index: 0;
+  }
 
-.areaAtuacao a{
-  text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
-  color:black;
-  font-size: medium;
-}
+  /*logo subindo*/
+  .logoAnimado {
+    opacity: 1;
+    width: 100%;
+    height: 150px;
+    padding-top: 8%;
+    animation: slide-up 1.5s ease-out;
+    z-index: 1000;
+  }
 
-.lineAreaAtuacao{
-  margin-top: 10%;
-  margin-bottom: 10%;
-  text-align: left;
-  margin-left:30%;
-}
+  .tituloPrincipalMobile {
+    width: 60%;
+  }
 
-.areaAtuacao{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
-/*area de atuação empresas.html*/
+  /*Fim do Home*/
 
 
-/*Fim áreas de atuação*/
+  /*Início do quem somos*/
+  .quemSomos p {
+    width: 70%;
+    text-align: justify;
+    padding: auto;
+    line-height: 1.5;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: medium;
+  }
+
+  /*Fim do quem somos*/
+
+  /*para deixar quem somos embaixo da imagem*/
+  #quemSomos {
+    margin-top: 30%;
+  }
+
+  /*Início áreas de atuação*/
+  /*cores dos ícones da área de atuação*/
+  .content-icon {
+    color: #cf9b4b;
+    margin-right: 2%;
+    font-size: medium;
+    text-align: justify;
+  }
+
+  .areaAtuacao a {
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: black;
+    font-size: medium;
+  }
+
+  .lineAreaAtuacao {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+    margin-left: 30%;
+  }
+
+  .areaAtuacao {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  /*area de atuação empresas.html*/
 
 
-/*Início do Nossa Equipe + Advogados Parceiros*/
-/*para conter a imagem dos advogados dentro da div*/
-.holder2 {
-  overflow: hidden;
-  width: 230px;
-  height: 230px;
-  justify-content: center;
-  align-items: center;
-}
-
-/*Para alinhar o accordion com a imagem dos advogados*/
-.advogadosCard {
-  width:70%;
-  overflow: hidden;
-}
-
-/*margim para não deixar o título colado com o nome dos advogados*/
-.nomesAdvogados {
-  font-size: large;
-  margin-top: 10%;
-}
-
-.accordion-body{
-  font-size: small;
-}
-
-/*Fim do Nossa Equipe + Advogados Parceiros*/
+  /*Fim áreas de atuação*/
 
 
-/*Início do rodapé*/
-/*Estilo do rodapé*/
-.informationFooter {
-  font-size: 125%;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
-}
+  /*Início do Nossa Equipe + Advogados Parceiros*/
+  /*para conter a imagem dos advogados dentro da div*/
+  .holder2 {
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.telefones,
-.mail {
-  color: white;
-  text-decoration: none;
-  font-size: 100%;
-}
+  /*Para alinhar o accordion com a imagem dos advogados*/
+  .advogadosCard {
+    width: 70%;
+    overflow: hidden;
+  }
 
-.telefones:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 130%;
+  /*margim para não deixar o título colado com o nome dos advogados*/
+  .nomesAdvogados {
+    font-size: large;
+    margin-top: 10%;
+  }
 
-}
+  .accordion-body {
+    font-size: small;
+  }
 
-.mail:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 130%;
-}
+  /*Fim do Nossa Equipe + Advogados Parceiros*/
 
-.logos1,
-.logos2,
-.logos3,
-.logos4 {
-  font-size:170%;
-}
 
-.logos1:hover,
-.logos2:hover,
-.logos3:hover,
-.logos4:hover {
-  font-size: 120%;
-}
+  /*Início do rodapé*/
+  /*Estilo do rodapé*/
+  .informationFooter {
+    font-size: 125%;
+    color: #c18824;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
 
-#maps{
-  width: 80%;
-}
-.btn_precisaAjuda {
-  display: none;
-}
+  .telefones,
+  .mail {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+  }
+
+  .telefones:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 130%;
+
+  }
+
+  .mail:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 130%;
+  }
+
+  .logos1,
+  .logos2,
+  .logos3,
+  .logos4 {
+    font-size: 170%;
+  }
+
+  .logos1:hover,
+  .logos2:hover,
+  .logos3:hover,
+  .logos4:hover {
+    font-size: 120%;
+  }
+
+  #maps {
+    width: 80%;
+  }
+
+  .btn_precisaAjuda {
+    display: none;
+  }
 }
 
 
@@ -697,186 +714,191 @@ body {
 
 /*Para aplicativos com tela inferior entre 769 e 1000*/
 @media (min-width: 769px) and (max-width: 1000px) {
- /*Estutura do site*/
-/*cor da página*/
+  /*Estutura do site*/
+  /*cor da página*/
 
-/*Padding entre as seções*/
-.sections {
-  padding-top: 2%;
-  margin-bottom:2%;
-}
+  /*Padding entre as seções*/
+  .sections {
+    padding-top: 2%;
+    margin-bottom: 2%;
+  }
 
-/*titulos do site*/
-.titulo {
-  font-family: 'Ysabeau Office', sans-serif;
-  color: #cf9b4b ;
-  font-size: 2em;
-  margin-bottom: 1%;
-}
+  /*titulos do site*/
+  .titulo {
+    font-family: 'Ysabeau Office', sans-serif;
+    color: #cf9b4b;
+    font-size: 2em;
+    margin-bottom: 1%;
+  }
 
-/*Início navbar*/
-.logoNavBar{
-  width: 100px;
-}
-/*Fim navbar*/
+  /*Início navbar*/
+  .logoNavBar {
+    width: 100px;
+  }
 
-
-/*Home*/
-/*Id que contém a imagem*/
-#imagemHeader {
-  position: absolute;
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  opacity: 0.5;
-
-}
-
-/*Div que contém a largura completa*/
-.divLeft {
-  width: 100%;
-  display: flex;
-  z-index: 0;
-}
-
-/*logo subindo*/
-.logoAnimado {
-  opacity: 1;
-  width: 100%;
-  height: 150px;
-  padding-top: 8%;
-  animation: slide-up 1.5s ease-out;
-  z-index: 1000;
-}
-
-.tituloPrincipalMobile{
-  width: 45%;
-}
-/*Fim do Home*/
+  /*Fim navbar*/
 
 
-/*Início do quem somos*/
-.quemSomos p{
-  width: 70%; 
-  text-align: justify; 
-  padding: auto;
-  line-height: 1.5;
-  font-family: 'Ysabeau Office', sans-serif;
-  font-size:medium;
-}
-/*Fim do quem somos*/
+  /*Home*/
+  /*Id que contém a imagem*/
+  #imagemHeader {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    opacity: 0.5;
 
-/*para deixar quem somos embaixo da imagem*/
-#quemSomos{
-  margin-top: 30%;
-}
+  }
 
-/*Início áreas de atuação*/
-/*cores dos ícones da área de atuação*/
-.content-icon {
-  color: #cf9b4b ;
-  margin-right: 2%;
-  font-size: medium;
-  text-align: justify;
-}
+  /*Div que contém a largura completa*/
+  .divLeft {
+    width: 100%;
+    display: flex;
+    z-index: 0;
+  }
 
-.areaAtuacao a{
-  text-decoration: none;
-  font-family: 'Ysabeau Office', sans-serif;
-  color:black;
-  font-size: medium;
-}
+  /*logo subindo*/
+  .logoAnimado {
+    opacity: 1;
+    width: 100%;
+    height: 150px;
+    padding-top: 8%;
+    animation: slide-up 1.5s ease-out;
+    z-index: 1000;
+  }
 
-.lineAreaAtuacao{
-  margin-top: 10%;
-  margin-bottom: 10%;
-  text-align: left;
-}
+  .tituloPrincipalMobile {
+    width: 45%;
+  }
 
-.areaAtuacao{
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-/*Fim áreas de atuação*/
+  /*Fim do Home*/
 
 
-/*Início do Nossa Equipe + Advogados Parceiros*/
-/*para conter a imagem dos advogados dentro da div*/
-.holder2 {
-  overflow: hidden;
-  width: 230px;
-  height: 230px;
-  justify-content: center;
-  align-items: center;
-}
+  /*Início do quem somos*/
+  .quemSomos p {
+    width: 70%;
+    text-align: justify;
+    padding: auto;
+    line-height: 1.5;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: medium;
+  }
 
-/*Para alinhar o accordion com a imagem dos advogados*/
-.advogadosCard {
-  width:70%;
-  overflow: hidden;
-}
+  /*Fim do quem somos*/
 
-/*margim para não deixar o título colado com o nome dos advogados*/
-.nomesAdvogados {
-  font-size: large;
-  margin-top: 10%;
-}
+  /*para deixar quem somos embaixo da imagem*/
+  #quemSomos {
+    margin-top: 30%;
+  }
 
-.accordion-body{
-  font-size: small;
-}
+  /*Início áreas de atuação*/
+  /*cores dos ícones da área de atuação*/
+  .content-icon {
+    color: #cf9b4b;
+    margin-right: 2%;
+    font-size: medium;
+    text-align: justify;
+  }
 
-/*Fim do Nossa Equipe + Advogados Parceiros*/
+  .areaAtuacao a {
+    text-decoration: none;
+    font-family: 'Ysabeau Office', sans-serif;
+    color: black;
+    font-size: medium;
+  }
+
+  .lineAreaAtuacao {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: left;
+  }
+
+  .areaAtuacao {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  /*Fim áreas de atuação*/
 
 
-/*Início do rodapé*/
-/*Estilo do rodapé*/
-.informationFooter {
-  font-size: 125%;
-  color: #c18824;
-  font-family: 'Ysabeau Office', sans-serif;
-}
+  /*Início do Nossa Equipe + Advogados Parceiros*/
+  /*para conter a imagem dos advogados dentro da div*/
+  .holder2 {
+    overflow: hidden;
+    width: 230px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+  }
 
-.telefones,
-.mail {
-  color: white;
-  text-decoration: none;
-  font-size: 100%;
-}
+  /*Para alinhar o accordion com a imagem dos advogados*/
+  .advogadosCard {
+    width: 70%;
+    overflow: hidden;
+  }
 
-.telefones:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 130%;
+  /*margim para não deixar o título colado com o nome dos advogados*/
+  .nomesAdvogados {
+    font-size: large;
+    margin-top: 10%;
+  }
 
-}
+  .accordion-body {
+    font-size: small;
+  }
 
-.mail:hover {
-  color: #c18824;
-  text-decoration: none;
-  font-size: 130%;
-}
+  /*Fim do Nossa Equipe + Advogados Parceiros*/
 
-.logos1,
-.logos2,
-.logos3,
-.logos4 {
-  font-size:170%;
-}
 
-.logos1:hover,
-.logos2:hover,
-.logos3:hover,
-.logos4:hover {
-  font-size: 120%;
-}
+  /*Início do rodapé*/
+  /*Estilo do rodapé*/
+  .informationFooter {
+    font-size: 125%;
+    color: #c18824;
+    font-family: 'Ysabeau Office', sans-serif;
+  }
 
-#maps{
-  width: 80%;
-}
-.btn_precisaAjuda {
-  display: none;
-}
+  .telefones,
+  .mail {
+    color: white;
+    text-decoration: none;
+    font-size: 100%;
+  }
+
+  .telefones:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 130%;
+
+  }
+
+  .mail:hover {
+    color: #c18824;
+    text-decoration: none;
+    font-size: 130%;
+  }
+
+  .logos1,
+  .logos2,
+  .logos3,
+  .logos4 {
+    font-size: 170%;
+  }
+
+  .logos1:hover,
+  .logos2:hover,
+  .logos3:hover,
+  .logos4:hover {
+    font-size: 120%;
+  }
+
+  #maps {
+    width: 80%;
+  }
+
+  .btn_precisaAjuda {
+    display: none;
+  }
 }
 
 

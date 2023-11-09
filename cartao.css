@@ -60,9 +60,6 @@ footer {
 }
 
 /*Início áreas de atuação*/
-/*cores dos ícones da área de atuação*/
-
-
 .content-icon {
   color: #c18824;
 }
@@ -82,7 +79,6 @@ footer {
   color: #cf9b4b;
 }
 
-
 .img-titulo {
   width: 70%;
   display: block;
@@ -90,18 +86,15 @@ footer {
 }
 
 /* Botão voltar */
-
-button.btn.btn-secondary {
+button.botao-voltar {
   background-color: #c18824;
   border-color: #7f7674;
-  /* color: #110808; */
   position: fixed;
-  /* width:60px; */
-  /* height:60px; */
   bottom: 60px;
   right: 10px;
   text-align: center;
   font-size: 20px;
+  border-radius: 8px;
   box-shadow: 1px 1px 2px #888;
   z-index: 1000;
 }
@@ -111,11 +104,9 @@ button.btn.btn-secondary {
   color: #110808;
 }
 /* Fim do Botão voltar */
-
-
 /*Fim áreas de atuação*/
 
-@media (max-width: 992px) { 
+@media (max-width: 992px) {
 
   .fundo {
     background-color: black;
@@ -129,8 +120,6 @@ button.btn.btn-secondary {
     visibility: visible;
   }
 
-  /* teste */
-
   .atuacao-titulo {
     margin-left: 150px;
     display: flex;
@@ -138,12 +127,10 @@ button.btn.btn-secondary {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    /* Coloca os elementos um em cima do outro em telas pequenas */
   }
 
   .img-titulo {
     margin-left: 150px;
-    /* Ajuste a margem conforme desejado */
     display: block;
   }
 
@@ -166,6 +153,7 @@ button.btn.btn-secondary {
     margin: auto;
     height: 25vh;
   }
+
   /* logoDisplay agora é um id */
   #logoDisplay h3 {
     margin: 0;
@@ -178,7 +166,6 @@ button.btn.btn-secondary {
 
     margin-top: 10px;
   }
-
 
   .conjunto {
     display: block;
@@ -195,7 +182,6 @@ button.btn.btn-secondary {
     margin-right: auto;
     word-spacing: 1vw;
     line-height: 20vh;
-
   }
 
   footer {
@@ -207,7 +193,6 @@ button.btn.btn-secondary {
   }
 
   /*Início áreas de atuação*/
-  /*cores dos ícones da área de atuação*/
   .areaAtuacao a {
     text-decoration: none;
     font-family: 'Ysabeau Office', sans-serif;
@@ -229,17 +214,11 @@ button.btn.btn-secondary {
     border-radius: 10px;
   }
 
-
   /* Botão voltar */
-
-
-  button.btn.btn-secondary {
+  button.botao-voltar {
     background-color: #c18824;
     border-color: #7f7674;
-    /* color: #110808; */
     position: fixed;
-    /* width:60px; */
-    /* height:60px; */
     bottom: 60px;
     right: 10px;
     text-align: center;
@@ -256,7 +235,6 @@ button.btn.btn-secondary {
   .content-icon {
     color: black;
   }
-
 }
 
 @media(min-width: 499px) and (max-width: 767px) {
@@ -268,13 +246,9 @@ button.btn.btn-secondary {
     text-align: center;
   }
 
-
-
   #titulo-logoDisplay {
     visibility: visible;
   }
-
-  /* teste */
 
   .atuacao-titulo {
     margin-left: 150px;
@@ -283,12 +257,10 @@ button.btn.btn-secondary {
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    /* Coloca os elementos um em cima do outro em telas pequenas */
   }
 
   .img-titulo {
     margin-left: 150px;
-    /* Ajuste a margem conforme desejado */
     display: block;
   }
 
@@ -302,7 +274,6 @@ button.btn.btn-secondary {
     margin-right: 0;
   }
 
-
   /* logoDisplay agora é um id */
   #logoDisplay {
     border: solid 1px rgb(0, 0, 0);
@@ -311,8 +282,8 @@ button.btn.btn-secondary {
     align-items: center;
     margin: auto;
     height: 25vh;
-
   }
+
   /* logoDisplay agora é um id */
   #logoDisplay h3 {
     margin: 0;
@@ -322,10 +293,8 @@ button.btn.btn-secondary {
   }
 
   #logo {
-
     margin-top: 10px;
   }
-
 
   .conjunto {
     display: block;
@@ -354,12 +323,11 @@ button.btn.btn-secondary {
   }
 
   /*Início áreas de atuação*/
-  /*cores dos ícones da área de atuação*/
-  .img-titulo{
+  .img-titulo {
     margin-left: 10%;
   }
 
-  .atuacao-img-titulo{
+  .atuacao-img-titulo {
     margin-left: 5%;
     margin-right: 25%;
   }
@@ -387,7 +355,7 @@ button.btn.btn-secondary {
 
 
   /* Botão voltar */
-  button.btn.btn-secondary {
+  button.botao-voltar {
     background-color: #c18824;
     border-color: #7f7674;
     position: fixed;
@@ -428,7 +396,7 @@ button.btn.btn-secondary {
     flex-direction: column;
   }
 
-  .atuacao-img-titulo{
+  .atuacao-img-titulo {
     margin-left: 5%;
     margin-right: 25%;
   }
@@ -453,6 +421,7 @@ button.btn.btn-secondary {
     margin: auto;
     height: 25vh;
   }
+
   /* logoDisplay agora é um id */
   #logoDisplay h3 {
     visibility: visible;
@@ -519,8 +488,7 @@ button.btn.btn-secondary {
 
   /* Botão voltar */
 
-
-  button.btn.btn-secondary {
+  button.botao-voltar {
     background-color: #c18824;
     border-color: #7f7674;
     position: fixed;
@@ -543,27 +511,23 @@ button.btn.btn-secondary {
 }
 
 @media(min-width: 1200px) and (max-width: 1600px) {
-    .icones {
-      font-size: 5vw;
-      color: #c18824;
-      font-family: 'Ysabeau Office', sans-serif;
-      text-decoration: none;
-      margin: auto; /* Adicione esta linha */
-      word-spacing: 1vw;
-      line-height: 20vh;
-    }
+  .icones {
+    font-size: 5vw;
+    color: #c18824;
+    font-family: 'Ysabeau Office', sans-serif;
+    text-decoration: none;
+    margin: auto;
+    word-spacing: 1vw;
+    line-height: 20vh;
+  }
 
-    /* área de atuação */
-    .container{
-     font-size: xx-small;
-    }
-
-    .container .areaAtuacao {
-      font-size: x-large;
-     }
-
-     .img-titulo{
-      width: 80%;
-     }
+  /* área de atuação */
+  .container.areaAtuacao {
+    font-size: x-large;
+  }
   
+  .img-titulo {    /* Isso ta segurando o icone do trabalhista*/
+    width: 80%;
+  }
+
 }
