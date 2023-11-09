@@ -11,8 +11,16 @@
   margin-right: 10%;
 }
 
-h3 {
-  visibility: hidden;
+#titulo-logoDisplay {
+  visibility: visible;
+  font-family: 'Ysabeau Office', sans-serif;
+  color: #cf9b4b;
+  font-size: 2.2rem;
+  margin-top: 7%;
+  margin-left: 40%;
+  margin-right: 40%;
+  display: flex;
+
 }
 
 .titulo {
@@ -74,6 +82,7 @@ footer {
   color: #cf9b4b;
 }
 
+
 .img-titulo {
   width: 70%;
   display: block;
@@ -81,7 +90,6 @@ footer {
 }
 
 /* Botão voltar */
-
 
 button.btn.btn-secondary {
   background-color: #c18824;
@@ -102,13 +110,12 @@ button.btn.btn-secondary {
   text-decoration: none;
   color: #110808;
 }
-
 /* Fim do Botão voltar */
 
 
 /*Fim áreas de atuação*/
 
-@media (max-width: 992px) {
+@media (max-width: 992px) { 
 
   .fundo {
     background-color: black;
@@ -117,8 +124,6 @@ button.btn.btn-secondary {
     margin: auto;
     text-align: center;
   }
-
-
 
   h3 {
     visibility: visible;
@@ -152,8 +157,8 @@ button.btn.btn-secondary {
     margin-right: 0;
   }
 
-
-  .logoDisplay {
+  /* logoDisplay agora é um id */
+  #logoDisplay {
     border: solid 1px rgb(0, 0, 0);
     left: 0;
     display: block;
@@ -161,8 +166,8 @@ button.btn.btn-secondary {
     margin: auto;
     height: 25vh;
   }
-
-  .logoDisplay h3 {
+  /* logoDisplay agora é um id */
+  #logoDisplay h3 {
     margin: 0;
     padding: 0;
     margin-top: 25%;
@@ -265,7 +270,7 @@ button.btn.btn-secondary {
 
 
 
-  h3 {
+  #titulo-logoDisplay {
     visibility: visible;
   }
 
@@ -298,12 +303,8 @@ button.btn.btn-secondary {
   }
 
 
-
-
-
-
-
-  .logoDisplay {
+  /* logoDisplay agora é um id */
+  #logoDisplay {
     border: solid 1px rgb(0, 0, 0);
     left: 0;
     display: block;
@@ -312,8 +313,8 @@ button.btn.btn-secondary {
     height: 25vh;
 
   }
-
-  .logoDisplay h3 {
+  /* logoDisplay agora é um id */
+  #logoDisplay h3 {
     margin: 0;
     padding: 0;
     margin-top: 25%;
@@ -354,6 +355,15 @@ button.btn.btn-secondary {
 
   /*Início áreas de atuação*/
   /*cores dos ícones da área de atuação*/
+  .img-titulo{
+    margin-left: 10%;
+  }
+
+  .atuacao-img-titulo{
+    margin-left: 5%;
+    margin-right: 25%;
+  }
+
   .areaAtuacao a {
     text-decoration: none;
     font-family: 'Ysabeau Office', sans-serif;
@@ -418,9 +428,9 @@ button.btn.btn-secondary {
     flex-direction: column;
   }
 
-  .img-titulo {
-    margin-left: 150px;
-    display: block;
+  .atuacao-img-titulo{
+    margin-left: 5%;
+    margin-right: 25%;
   }
 
   .titulo {
@@ -434,8 +444,8 @@ button.btn.btn-secondary {
   }
 
 
-
-  .logoDisplay {
+  /* logoDisplay agora é um id */
+  #logoDisplay {
     border: solid 1px rgb(0, 0, 0);
     left: 0;
     display: block;
@@ -443,8 +453,8 @@ button.btn.btn-secondary {
     margin: auto;
     height: 25vh;
   }
-
-  .logoDisplay h3 {
+  /* logoDisplay agora é um id */
+  #logoDisplay h3 {
     visibility: visible;
     margin: 0;
     padding: 0;
@@ -456,9 +466,9 @@ button.btn.btn-secondary {
     margin-top: 200px;
   }
 
-
+  /* Alterado a configuração para inline, nesse tamanho */
   .conjunto {
-    display: block;
+    display: inline;
     align-items: center;
     text-align: center;
   }
@@ -532,7 +542,7 @@ button.btn.btn-secondary {
   }
 }
 
-@media(min-width: 1200px) and (max-width: 1400px) {
+@media(min-width: 1200px) and (max-width: 1600px) {
     .icones {
       font-size: 5vw;
       color: #c18824;
@@ -542,5 +552,18 @@ button.btn.btn-secondary {
       word-spacing: 1vw;
       line-height: 20vh;
     }
+
+    /* área de atuação */
+    .container{
+     font-size: xx-small;
+    }
+
+    .container .areaAtuacao {
+      font-size: x-large;
+     }
+
+     .img-titulo{
+      width: 80%;
+     }
   
 }
