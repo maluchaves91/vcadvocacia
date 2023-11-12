@@ -71,6 +71,10 @@
     justify-content: center;
   }
 
+  figure{
+    width: 100%;
+  }
+
   .imageHeader {
     object-fit: cover;
     width: 100%;
@@ -79,6 +83,7 @@
 
   .holder {
     position: relative;
+
   }
 
   .tituloPrincipal {
@@ -256,6 +261,7 @@
     
     .imageHeader {
       height: 200px;
+      
     }
     
     .tituloPrincipal {
