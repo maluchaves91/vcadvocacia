@@ -30,7 +30,6 @@ body {
   border-top-color: #090705;
   margin-bottom: 1%;
 }
-
 /* Fim estutura do site*/
 
 
@@ -38,15 +37,12 @@ body {
 
 
 .imageHeader {
-  /* Estilos para a imagem */
   max-width: 100%;
   height: auto;
-  /* Outros estilos necessários */
 }
 
 .tituloPrincipal {
   margin-left: 10px;
-  /* Outros estilos necessários */
 }
 
 
