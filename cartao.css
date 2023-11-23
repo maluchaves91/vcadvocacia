@@ -15,8 +15,8 @@
   visibility: visible;
   font-family: 'Ysabeau Office', sans-serif;
   color: #cf9b4b;
-  font-size: 2.2rem;
-  margin-top: 7%;
+  font-size: 2.7rem;
+  margin-top: 10%;
   margin-left: 40%;
   margin-right: 40%;
   display: flex;
@@ -105,6 +105,13 @@ button.botao-voltar {
 }
 /* Fim do Botão voltar */
 /*Fim áreas de atuação*/
+
+/* Toque para interagir */
+#interagir{
+  margin-top: 50px;
+}
+/* fim do Toque para interagir */
+
 
 @media (max-width: 992px) {
 
