@@ -108,7 +108,20 @@ button.botao-voltar {
 
 /* Toque para interagir */
 #interagir{
-  margin-top: 50px;
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  position: relative;
+  background-color: aliceblue;
+}
+#interagir h2{
+  /* background-color: aqua; */
+  text-align: center;
+  width: 80%;
+  position: relative;
+  margin-left: 100px;
 }
 /* fim do Toque para interagir */
 
@@ -318,8 +331,8 @@ button.botao-voltar {
     margin-right: auto;
     word-spacing: 1vw;
     line-height: 20vh;
-
   }
+
 
   footer {
     text-align: center;
@@ -383,6 +396,7 @@ button.botao-voltar {
     color: black;
   }
 }
+
 
 @media(min-width: 767px) and (max-width: 1200px) {
   .fundo {
@@ -533,7 +547,7 @@ button.botao-voltar {
     font-size: x-large;
   }
   
-  .img-titulo {    /* Isso ta segurando o icone do trabalhista*/
+  .img-titulo { /* Isso ta segurando o icone do trabalhista*/
     width: 80%;
   }
 
