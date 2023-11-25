@@ -550,5 +550,65 @@ button.botao-voltar {
   .img-titulo { /* Isso ta segurando o icone do trabalhista*/
     width: 80%;
   }
-
 }
+/* Adicione essas regras de mídia no final do seu arquivo CSS */
+
+@media only screen and (max-width: 400px) {
+  #logo {
+    max-width: 100%;
+    margin-top: 20px;
+    background-color: aliceblue;
+  }
+
+  #titulo-logoDisplay {
+    font-size: 2rem;
+    margin: 5% 0;
+    text-align: center;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
+    margin: 5% 0;
+    text-align: center;
+  }
+
+  .conjunto {
+    margin-top: 5%;
+  }
+
+  .icones {
+    font-size: 5vh;
+    line-height: 10vh;
+  }
+
+  footer {
+    position: static;
+  }
+
+  .areaAtuacao {
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+  }
+
+  .img-titulo {
+    width: 100%;
+    margin: 5% 0;
+  }
+
+  button.botao-voltar {
+    font-size: 16px;
+    bottom: 10px;
+  }
+
+  #interagir {
+    height: auto;
+    margin: 10px 0;
+  }
+
+  #interagir h2 {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
