@@ -6,7 +6,7 @@
 
 #logo {
   float: left;
-  width: 30%;
+  width: 25%;
   margin-left: auto;
   margin-right: 10%;
 }
@@ -19,7 +19,7 @@
   margin-top: 10%;
   margin-left: 40%;
   margin-right: 40%;
-  display: flex;
+  display: none;
 
 }
 
@@ -38,7 +38,7 @@
 .conjunto {
   display: block;
   align-items: center;
-  margin-top: 12%;
+  margin-top: 5%;
 }
 
 .icones {
@@ -54,9 +54,11 @@
 footer {
   text-align: center;
   color: #c18824;
-  bottom: 0;
-  position: fixed;
   width: 100%;
+  position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
 }
 
 /*Início áreas de atuação*/
